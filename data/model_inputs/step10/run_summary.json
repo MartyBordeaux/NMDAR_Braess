@@ -1,0 +1,43 @@
+{
+  "pipeline_step": "10_matched_parameter_intrareceptor_rerouting",
+  "script_version": "1.0.0",
+  "created_utc": "2026-07-28T08:44:38.858670+00:00",
+  "python": "3.12.3 (main, Jun 19 2026, 12:46:00) [GCC 13.3.0]",
+  "platform": "Linux-6.8.0-79-generic-x86_64-with-glibc2.39",
+  "numba_threads": 2,
+  "samples_per_prior": 50000,
+  "accepted_per_prior": 5000,
+  "priors": ["reference", "broad"],
+  "seed": 20260728,
+  "dt_ms": 0.05,
+  "duration_ms": 600.0,
+  "pulse_count": 25,
+  "pulse_interval_ms": 5.1,
+  "braess_threshold": 1.0,
+  "robust_threshold": 1.05,
+  "target_sha256": "824b3e4d289abbb6d24ee7dae35e32d48855a6888f599e82391868478e09a0ac",
+  "matched_parameter_constraints": {
+    "same_kinetic_parameters": true,
+    "same_glutamate_forcing": true,
+    "same_conductance": true,
+    "same_baseline": true,
+    "same_initial_condition": true,
+    "same_time_grid": true,
+    "per_trace_max_normalization": false,
+    "synaptic_extrasynaptic_coupling": false,
+    "glutamate_competition": false,
+    "pairing_reconstructed": false
+  },
+  "control_calibration_uses": [
+    "early/primary control shape",
+    "late/primary control shape",
+    "charge/primary control shape"
+  ],
+  "control_calibration_does_not_use": [
+    "Ro25 outcomes",
+    "responder-like labels",
+    "separate blocked-condition parameters",
+    "PPF as a kinetic constraint"
+  ],
+  "model_scope": "topological possibility and prior-sensitive frequency compatibility; not biochemical proof and not unique parameter fitting"
+}
