@@ -1,0 +1,12 @@
+cell_id,date,primary_plateau_class_minus40,n_negative_voltages,n_potentiating,n_suppressing,n_neutral,fraction_potentiating,median_r_plateau_negative_voltages
+2022-10-12_cell1,2022-10-12,plateau_potentiating,5,5,0,0,1.0,1.984178173333084
+2022-10-12_cell2,2022-10-12,plateau_suppressing,5,0,5,0,0.0,0.7079098088539333
+2022-10-12_cell3,2022-10-12,plateau_suppressing,5,0,5,0,0.0,0.507535676067291
+2022-10-17_cell1,2022-10-17,plateau_potentiating,5,4,1,0,0.8,1.2116411769950466
+2022-10-17_cell2,2022-10-17,plateau_potentiating,5,5,0,0,1.0,1.5912719595735372
+2022-11-18_cell1,2022-11-18,plateau_suppressing,5,0,4,1,0.0,0.8716056140234479
+2022-11-18_cell2,2022-11-18,plateau_potentiating,5,5,0,0,1.0,3.6097623308910807
+2022-11-18_cell3,2022-11-18,plateau_potentiating,5,5,0,0,1.0,1.876748270394414
+2022-12-22_cell1,2022-12-22,plateau_suppressing,5,0,4,1,0.0,0.6844475815526168
+2022-12-22_cell2,2022-12-22,plateau_suppressing,5,0,5,0,0.0,0.6015420612827054
+2022-12-23_cell_unknown,2022-12-23,plateau_neutral,5,2,2,1,0.4,1.0043074873100633
