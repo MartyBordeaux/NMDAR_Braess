@@ -1,14 +1,16 @@
 # Frozen Step10 accepted ensemble
 
-The exact Step10 results archive has been recovered and verified.
+The compact accepted ensemble is deposited as `accepted_parameter_ensemble.csv.gz` in this directory. It is not awaiting upload or release deposition.
 
-- Source archive SHA-256: `bffddd17332d16c3048b7e23bcb2ab05a3a4c15213de1aa5eba816b23fd59d99`
-- Accepted rows: 10,000 total = 5,000 `broad` + 5,000 `reference`
-- Compact publication copy SHA-256: `8abb26655348b8f7c5e48d1a51610ac3853b50e21e7d37e37889a235cec57613`
-- Compact publication filename: `step10_accepted_parameter_ensemble.csv`
+- Rows: 10,000 = 5,000 broad + 5,000 reference.
+- Columns: 17, retaining prior, sample_id, 12 kinetic rates, two inherited forcing fields and calibration_score.
+- Source archive SHA-256: `bffddd17332d16c3048b7e23bcb2ab05a3a4c15213de1aa5eba816b23fd59d99`.
+- Deposited gzip SHA-256: `596723b5ce4959a42422f9862ea6561c20ed2fc5ee4e31bc6fd99d9d82cbc6cf`.
+- Decompressed CSV SHA-256: `9a6b6a1388392c6efb96ed3b3e3e199bb737bc5199d7fd4a8135214d16e8acc2`.
+- Git blob SHA-1: `c9d5d781f2bd0aee6620a3841f2ddcab15d05139`.
 
-The compact copy contains all columns required by the downstream topology-first rerun code: `prior`, `sample_id`, the 12 kinetic-rate fields, inherited pulse-amplitude and glutamate-decay fields, and `calibration_score`.
+Row identifiers match the original accepted table. Comparing the retained numeric columns after parsing the original and compact CSVs gives a maximum absolute difference of approximately 7.11e-15 from serialization roundoff. The compressed public copy must therefore be checked against its own byte hashes, not against an earlier serialization.
 
-The full source table also contains legacy post-train endpoint outputs from an earlier analysis. Those columns are not used by the final inter-pulse plateau analysis and are intentionally excluded from the compact publication input.
+The original Step10 output included obsolete post-train outcomes. Those extra columns are intentionally not used as final plateau-analysis targets. The run summary documents control-only calibration, excluding Ro25 outcomes and responder labels. It does not recover the complete upstream proposal distributions or the exact calibration-score implementation.
 
-The binary/compressed accepted-ensemble file is included in the manuscript v0.6 source package and is intended to be attached to the immutable repository release at submission. The GitHub connector used to populate this repository cannot directly transfer that local binary asset, so this file records its exact identity and provenance until release deposition.
+This file closes the missing accepted-input gap. It does not, by itself, certify that the public compact model and quick summary script reproduce the complete historical batch workflow; see the repository REPRODUCIBILITY.md.
