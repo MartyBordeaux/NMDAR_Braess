@@ -2,30 +2,15 @@
   "source_archive": "results_step10.zip",
   "source_archive_sha256": "bffddd17332d16c3048b7e23bcb2ab05a3a4c15213de1aa5eba816b23fd59d99",
   "source_member": "results/10_matched_rerouting/matched_parameter_accepted.csv",
+  "deposited_file": "data/model_inputs/step10/accepted_parameter_ensemble.csv.gz",
+  "deposited_file_git_blob_sha1": "c9d5d781f2bd0aee6620a3841f2ddcab15d05139",
+  "deposited_gzip_sha256": "596723b5ce4959a42422f9862ea6561c20ed2fc5ee4e31bc6fd99d9d82cbc6cf",
+  "compact_publication_copy_sha256": "9a6b6a1388392c6efb96ed3b3e3e199bb737bc5199d7fd4a8135214d16e8acc2",
+  "compact_sha256_scope": "decompressed CSV bytes",
   "rows_total": 10000,
-  "rows_by_prior": {
-    "broad": 5000,
-    "reference": 5000
-  },
-  "publication_required_columns": [
-    "prior",
-    "sample_id",
-    "kon_A_per_ms",
-    "kon_B_per_ms",
-    "koff_A_per_ms",
-    "koff_B_per_ms",
-    "kf_plus_per_ms",
-    "ks_plus_per_ms",
-    "kf_minus_per_ms",
-    "ks_minus_per_ms",
-    "kd1_plus_per_ms",
-    "kd1_minus_per_ms",
-    "kd2_plus_per_ms",
-    "kd2_minus_per_ms",
-    "pulse_amplitude_au",
-    "glutamate_tau_ms",
-    "calibration_score"
-  ],
-  "compact_publication_copy_sha256": "8abb26655348b8f7c5e48d1a51610ac3853b50e21e7d37e37889a235cec57613",
-  "note": "The Step10 source table contains additional legacy-output columns that are not required by the final Steps 06-09 plateau-only calculations. The compact publication copy retains every column required by downstream validation and integration code."
+  "rows_by_prior": {"broad": 5000, "reference": 5000},
+  "publication_required_columns": ["prior", "sample_id", "kon_A_per_ms", "kon_B_per_ms", "koff_A_per_ms", "koff_B_per_ms", "kf_plus_per_ms", "ks_plus_per_ms", "kf_minus_per_ms", "ks_minus_per_ms", "kd1_plus_per_ms", "kd1_minus_per_ms", "kd2_plus_per_ms", "kd2_minus_per_ms", "pulse_amplitude_au", "glutamate_tau_ms", "calibration_score"],
+  "max_numeric_roundtrip_difference_from_original_table": 7.105427357601002e-15,
+  "row_keys_match_original": true,
+  "note": "The public file is deposited. The earlier advertised compact-copy hash referred to a different CSV serialization, not the bytes in the deposited gzip. The retained row keys match the original table; numeric differences after CSV parsing/reserialization are at floating-point roundoff. Legacy post-train output columns are omitted. Availability of this input does not by itself verify the complete historical batch rerun."
 }
