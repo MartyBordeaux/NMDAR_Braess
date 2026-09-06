@@ -1,0 +1,31 @@
+{
+  "source_archive": "results_step10.zip",
+  "source_archive_sha256": "bffddd17332d16c3048b7e23bcb2ab05a3a4c15213de1aa5eba816b23fd59d99",
+  "source_member": "results/10_matched_rerouting/matched_parameter_accepted.csv",
+  "rows_total": 10000,
+  "rows_by_prior": {
+    "broad": 5000,
+    "reference": 5000
+  },
+  "publication_required_columns": [
+    "prior",
+    "sample_id",
+    "kon_A_per_ms",
+    "kon_B_per_ms",
+    "koff_A_per_ms",
+    "koff_B_per_ms",
+    "kf_plus_per_ms",
+    "ks_plus_per_ms",
+    "kf_minus_per_ms",
+    "ks_minus_per_ms",
+    "kd1_plus_per_ms",
+    "kd1_minus_per_ms",
+    "kd2_plus_per_ms",
+    "kd2_minus_per_ms",
+    "pulse_amplitude_au",
+    "glutamate_tau_ms",
+    "calibration_score"
+  ],
+  "compact_publication_copy_sha256": "8abb26655348b8f7c5e48d1a51610ac3853b50e21e7d37e37889a235cec57613",
+  "note": "The Step10 source table contains additional legacy-output columns that are not required by the final Steps 06-09 plateau-only calculations. The compact publication copy retains every column required by downstream validation and integration code."
+}
