@@ -1,0 +1,3 @@
+prior,n,dt_ms,stop_ms,maximum_aggregated_state_error,passes_1e_minus_10,forcing_G_peak,forcing_tau_G_ms
+broad,20,0.1,600.0,3.1086244689504383e-15,True,0.65,15.0
+reference,20,0.1,600.0,3.885780586188048e-15,True,0.2,40.0
