@@ -1,45 +1,33 @@
 # Reproducibility
 
-## Publicly reproducible from this repository
+## Source-table reproduction
 
-The following can be reproduced directly from the distributed derived/source data:
+The public derived tables permit recalculation of cell/reference plateau ratios and the descriptive 5 potentiating / 5 suppressing / 1 neutral classification. Published model summary tables support inspection of Base maps, constructive examples, B-slow amplification, dual sensitivity and numerical audits. `python code/reproduce_publication.py` checks distributed result tables and rebuilds summary plots. It does not independently regenerate every model trajectory behind those tables.
 
-1. the cell-series plateau ratios and the frozen -40 mV endpoint;
-2. the descriptive 5 potentiating / 5 suppressing / 1 neutral classification;
-3. manuscript plots based on the distributed source-data tables;
-4. the reported Base-topology maps, constructive witnesses, B-slow amplification summaries, dual sensitivity, and numerical-audit tables.
+## Experimental scope
 
-## Raw-data stages
+Raw ABF recordings are not distributed. Median plateau values and QC fields support downstream comparisons, but cannot independently validate waveform extraction, stimulus masking, baseline subtraction or raw-recording QC. A common same-day reference is not an established within-cell baseline. Reused reference sweeps must not be counted as independent experimental records.
 
-Steps 1-3 operate on the original ABF recordings. The raw ABF archive is intentionally not redistributed in this public repository. The public experimental input is the derived plateau dataset in `data/derived/`, including one row per cell series and negative holding potential plus QC metadata. These values are sufficient to reproduce every experimental numerical statement used in the manuscript after the raw-to-plateau extraction stage.
+The revised manuscript source package includes the baseline-subtracted samples, pointwise median waveforms and interval measurements used for its Figure 1, plus plotting code. Such waveform exports and a full raw ABF archive are different levels of reproducibility.
 
-## Recovered Step10 model input
+## Deposited Step10 input
 
-The previously missing Step10 results archive has been recovered. The archive SHA-256 is:
+The accepted input is now present at:
 
-`bffddd17332d16c3048b7e23bcb2ab05a3a4c15213de1aa5eba816b23fd59d99`
+`data/model_inputs/step10/accepted_parameter_ensemble.csv.gz`
 
-Verified metadata:
+It contains 10,000 rows (5,000 broad and 5,000 reference), 17 columns and all parameter fields needed by the downstream kinetics. Its decompressed CSV SHA-256 is `9a6b6a1388392c6efb96ed3b3e3e199bb737bc5199d7fd4a8135214d16e8acc2`. Its compressed Git blob SHA is `c9d5d781f2bd0aee6620a3841f2ddcab15d05139`.
 
-- pipeline: `10_matched_parameter_intrareceptor_rerouting`;
-- candidate sets: 50,000 per prior;
-- accepted sets: 5,000 `broad` + 5,000 `reference`;
-- random seed: `20260728`;
-- Step10 integration step: 0.05 ms;
-- duration: 600 ms;
-- pulse count: 25;
-- pulse interval: 5.1 ms.
+The source archive `results_step10.zip` has SHA-256 `bffddd17332d16c3048b7e23bcb2ab05a3a4c15213de1aa5eba816b23fd59d99`. The recovered run summary records 50,000 candidates per prior, 5,000 retained per prior, seed 20260728, integration step 0.05 ms, duration 600 ms and 25 pulses spaced by 5.1 ms. Calibration used control-shape information and excluded Ro25 outcomes and responder labels.
 
-The Step10 run summary records control-only calibration using early/primary, late/primary, and charge/primary control-shape information. It explicitly states that Ro25 outcomes, responder-like labels, separate blocked-condition parameters, and PPF were not used as kinetic calibration constraints.
+Availability of the accepted table does not reconstruct the original proposal distributions, proposal bounds or exact calibration-score implementation. Those upstream details cannot be inferred from retained-sample extrema. Obsolete post-train outcome columns in the original Step10 export are not inputs to the final plateau analysis.
 
-The final topology-first analyses (Steps 06-09) do not regenerate the original 50,000 candidates. They propagate the frozen accepted ensemble with equal weights and impose the common forcing grid used in the final manuscript.
+## Model execution scope
 
-## Model reruns
+The repository currently contains a compact Base/B-slow model implementation and a separate plateau observable. It does not contain the complete historical Step01-Step09 batch orchestration or a verified clean-clone, one-command regeneration of all Base, B-slow and dual results. Historical hash-identified model sources are additionally supplied in the manuscript source package; they are not the same thing as the compact public implementation.
 
-The exact downstream kinetic-network sources and plateau-rerun pipelines are preserved under the publication code/provenance layer. The accepted ensemble required by those reruns has now been recovered and verified. A compact 10,000-row publication copy contains `prior`, `sample_id`, the 12 kinetic-rate fields, inherited drive fields, and `calibration_score` — all fields required by the downstream validation and integration code.
+The former missing-ensemble limitation is closed. Complete historical workflow deposition and end-to-end rerun verification are separate tasks and are not implied merely by the presence of that input.
 
-The original Step10 archive contains additional legacy endpoint columns (including the obsolete post-train quantities from the earlier analysis). Those columns are not required to reproduce the final inter-pulse plateau calculations and are intentionally not treated as manuscript data.
+## Interpretation
 
-## Scope
-
-The repository is intended to support reproducibility of the final topology-first manuscript analysis from the frozen derived experimental endpoint and frozen model ensemble. It does not claim de-novo reconstruction of raw electrophysiology without the original ABF archive, nor does it treat the Step10 proposal distribution as a biological population distribution.
+Fractions of accepted parameter sets or designed forcing contexts are model accessibility measures, not biological prevalence. The forcing grid is not a probability distribution of glutamate exposures. Software is distributed under the MIT License.
