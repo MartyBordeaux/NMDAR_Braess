@@ -1,0 +1,6 @@
+model,prior,condition_id,n,requested_dt_ms,fine_requested_dt_ms,r_plateau_abs_error_max,r_plateau_abs_error_q95,direction_agreement,coarse_effective_dt_ms,fine_effective_dt_ms,selection_reason
+base,broad,G950_T100,20,0.1,0.05,3.6536690488198076e-05,3.0177258517663513e-05,1.0,0.1,0.05,maximum_braess_fraction
+base,broad,G650_T030,20,0.1,0.05,0.0004959601174857609,0.00038910460584169754,1.0,0.1,0.05,best_robust_magnitude_compatibility
+base,broad,G800_T100,20,0.1,0.05,0.00012413297979263493,8.584963230703072e-05,1.0,0.1,0.05,maximum_experimental_scale_fraction
+base,reference,G950_T100,20,0.1,0.05,5.733977974875515e-06,3.862117218467188e-06,1.0,0.1,0.05,maximum_braess_fraction
+base,reference,G200_T150,20,0.1,0.05,0.00032404826647214335,0.0003019190599934385,1.0,0.1,0.05,best_robust_magnitude_compatibility
