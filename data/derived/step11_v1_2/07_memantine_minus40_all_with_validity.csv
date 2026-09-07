@@ -1,0 +1,9 @@
+date,cell_id,voltage_mV,control_plateau_all_nA,memantine_plateau_all_nA,raw_abs_ratio_all_sweeps,control_plateau_valid_nA,memantine_plateau_valid_nA,control_endpoint_valid,memantine_endpoint_valid,control_signal_snr,control_signal_valid,quantitative_valid,r_plateau,direction,exclusion_reason,control_relation
+2021-12-02,cell1,-40,0.10340023040771484,0.04616355895996094,0.4464550879425952,,,False,False,,False,False,,excluded,control_endpoint_invalid;memantine_endpoint_invalid,within-cell acute control
+2021-12-02,cell2,-40,0.07540565729141235,-0.05201198160648346,0.6897623265251598,,-0.05201198160648346,False,True,,False,False,,excluded,control_endpoint_invalid,within-cell acute control
+2021-12-03,cell1,-40,0.029694393277168274,-0.09151612222194672,3.081932719343101,,,False,False,,False,False,,excluded,control_endpoint_invalid;memantine_endpoint_invalid,within-cell acute control
+2022-03-15,cell2,-40,-0.4057714343070984,-0.05555230379104614,0.13690540805541948,-0.382252961397171,-0.05555230379104614,True,True,102.04784388211549,True,True,0.14532864202803603,suppression,,within-cell acute control
+2022-06-22,cell2,-40,-0.08304762840270996,-0.06191527843475342,0.7455393925822574,-0.08304762840270996,-0.06191527843475342,True,True,11.775870823943562,True,True,0.7455393925822574,suppression,,within-cell acute control
+2022-06-29,cell_unlabeled,-40,-0.03610420227050781,-0.006550192832946777,0.18142466585662212,-0.03610420227050781,-0.007018148899078369,True,False,8.218166688583478,True,False,,excluded,memantine_endpoint_invalid,within-cell acute control
+2022-09-26,cell1,-40,-0.12077385187149048,0.019744277000427246,0.1634813885164163,-0.12077385187149048,,True,False,59.35533329998009,True,False,,excluded,memantine_endpoint_invalid,within-cell acute control
+2022-09-26,cell2,-40,0.10280746221542358,-0.024204671382904053,0.23543691149758555,,-0.029070556163787842,False,True,,False,False,,excluded,control_endpoint_invalid,within-cell acute control

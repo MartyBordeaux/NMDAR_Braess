@@ -1,0 +1,5 @@
+date,cell_id,n_valid_negative_voltages,n_suppression,n_potentiation,median_r_plateau,all_valid_negative_voltages_suppressive
+2021-12-02,cell2,2,2,0,0.45161383438377845,True
+2022-03-15,cell2,1,1,0,0.14532864202803603,True
+2022-06-22,cell2,5,5,0,0.7455393925822574,True
+2022-06-29,cell_unlabeled,3,3,0,0.3630060513195729,True

@@ -1,0 +1,4 @@
+analysis,date,cell_id,drug,control_n_sweeps_total,drug_n_sweeps_total,control_n_sweeps_ppr_valid,drug_n_sweeps_ppr_valid,control_ppr,drug_ppr,delta_ppr,control_median_min_snr,drug_median_min_snr,control_mean_response_nA,drug_mean_response_nA,drug_response_amplitude_retention,ppr_signal_interpretable,sweep_imbalance_ratio,interpretation_notes
+memantine_acute,2022-06-22,cell2,memantine,16,4,16,4,1.8925867111552659,0.9656530308520969,-0.926933680303169,54.826031985046825,7.485159279639699,0.598964373767376,0.05493130311369896,0.091710468133841,True,4.0,
+ro25_nbqx,2022-10-17,cell1,ro25,4,42,4,15,,,,13.543026686085438,2.475602413182325,0.03635769840329885,0.009486147575080395,0.2609116636002373,False,10.5,PPR_not_interpretable_due_to_SNR_gate
+ro25_nbqx,2022-10-17,cell2,ro25,7,1,7,1,1.6434545582459212,1.5017043262627245,-0.1417502319831967,16.987946652201057,14.00962405057417,0.03976226970553398,0.038899042457342145,0.9782902924157849,True,7.0,single_drug_sweep

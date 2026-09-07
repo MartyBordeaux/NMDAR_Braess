@@ -1,0 +1,3 @@
+date,cell_id,voltage_mV,control_plateau_all_nA,memantine_plateau_all_nA,raw_abs_ratio_all_sweeps,control_plateau_valid_nA,memantine_plateau_valid_nA,control_endpoint_valid,memantine_endpoint_valid,control_signal_snr,control_signal_valid,quantitative_valid,r_plateau,direction,exclusion_reason,control_relation
+2022-03-15,cell2,-40,-0.4057714343070984,-0.05555230379104614,0.13690540805541948,-0.382252961397171,-0.05555230379104614,True,True,102.04784388211549,True,True,0.14532864202803603,suppression,,within-cell acute control
+2022-06-22,cell2,-40,-0.08304762840270996,-0.06191527843475342,0.7455393925822574,-0.08304762840270996,-0.06191527843475342,True,True,11.775870823943562,True,True,0.7455393925822574,suppression,,within-cell acute control
