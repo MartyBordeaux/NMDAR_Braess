@@ -1,52 +1,62 @@
 # NMDAR_Braess
 
-Publication repository for **Route removal reveals a latent Braess-like amplification regime in an NMDA receptor-state network**.
+Publication repository accompanying **Paradoxical NMDA response amplification in a robust receptor-state regime** (manuscript v1.5, 13 September 2026).
 
-## Main result
+## Main scientific result
 
-The specified Base receptor-state network permits a Braess-like increase in the open-probability plateau after removal of the B entry route. Forcing and kinetic parameters are fixed across each control/blocked comparison. A rare broad-ensemble realization reaches the observed experimental magnitude range. B-route slowing modifies accessibility and magnitude; it is not necessary for existence. This is a result about the specified kinetic model, not a graph-only theorem for arbitrary rates or proof of the biological action of Ro25-6981.
+Archival Purkinje-cell recordings show heterogeneous Ro25-6981 responses at -40 mV: threshold-free sweep separation resolves 5 series as potentiating, 5 as suppressing, and 1 as unresolved. The five potentiating plateau ratios are 1.636, 1.695, 1.877, 1.891, and 4.073. Across the five negative holding potentials used for robustness analysis, the resolved primary direction is never reversed by complete sweep separation.
 
-## Deposited material
+A minimal receptor-state Base model permits Braess-like amplification after removal of one ligand-entry route while the remaining kinetic parameters and input are held fixed. Experimental-scale amplification is rare under the original independent global sampling measure, but exact replay and local/expanded searches identify a finite control-compatible strong-response basin. The Bayesian analysis therefore estimates allocation to a model-defined strong-compatible regime; it does not recover a unique 12-dimensional biochemical prior.
 
-- `data/derived/`: primary Ro25 median plateau levels, ratios, frozen targets and voltage robustness.
-- `data/derived/step11_v1_2/`: ancillary acute memantine/PPF measurements, eligibility decisions and complete saved-sweep archive.
-- `data/model_inputs/step10/accepted_parameter_ensemble.csv.gz`: 10,000 retained sets, 5,000 broad and 5,000 reference.
-- `data/model_outputs/`: Base/B-slow/dual summaries and numerical-audit tables.
-- `code/model/nmdar_braess_model.py`: compact Base/B-slow implementation.
-- `code/plateau_observable.py`: inter-pulse plateau observable.
-- `code/reproduce_publication.py`: source-table verification and summary plots.
-- `code/step_11/`: exact frozen v1.2 extraction source and tested ancillary publication audit/figure builder.
-- `provenance/`: result hierarchy, claim ledger, summaries and ancillary audit notes.
+The model result is a mechanistic possibility and robustness statement for the specified kinetic network. It is not proof of the molecular action of Ro25-6981, a graph theorem for arbitrary networks, or a direct biological prevalence estimate.
 
-The manuscript is under author proofreading. Its v0.9 update adds ancillary controls without changing the receptor-model results or the approved Figures 1-2.
+## Current repository hierarchy
 
-## Experimental scope
+- `data/derived/final/step15/` — final threshold-free experimental classification and negative-voltage robustness.
+- `data/derived/final/step18/` ... `step23/` — compact final tables and decision summaries supporting the global/local/Bayesian claims.
+- `data/derived/final/historical_control_calibration/` — historical control-shape targets used by Step10.
+- `code/final_v1_5/` — frozen historical/final analysis source snapshots and a manuscript-level integrity verifier.
+- `data/model_inputs/step10/` — previously deposited accepted Step10 ensemble.
+- `data/model_outputs/` — retained Base/B-slow/dual supporting outputs from the earlier publication package.
+- `manuscript/` — manuscript-version notes and provenance boundary for the current author draft.
+- `provenance/` — historical claim ledgers and audit material.
 
-The endpoint is the baseline-subtracted negative current level between stimuli during the 25-pulse train. Artifact neighborhoods are excluded; the first five intervals are discarded and the remaining 19 interval medians are aggregated per sweep before condition aggregation. Artifact peak height is not the endpoint.
+Earlier files directly under `data/derived/` are retained for provenance. In particular, their old +/-2 pA `neutral` label is superseded by the threshold-free `unresolved` classification used in manuscript v1.5.
 
-The primary Ro25 ratio uses a same-day reference, not an established within-cell baseline. Step11 acute memantine pairs are archive-matched and use additional post-review endpoint gates. At -40 mV two of eight candidates pass. Across planned negative voltages, eleven of forty pairs pass, nested in four cell series; all eleven are suppressive. Fifteen eligible pairs refers to all voltages, including zero/positive voltages. No between-drug population comparison is claimed. PPF cannot exclude presynaptic contributions.
+## Experimental endpoint
 
-Raw ABF files are not distributed. Saved measurements support downstream aggregation, not independent validation of raw waveform extraction or recording quality control.
+The primary endpoint is the baseline-subtracted negative inter-pulse current level during a 25-pulse train. At -40 mV, each drug/reference comparison contains three Ro25 sweeps and three same-day same-voltage reference sweeps. A series is potentiating when all three Ro25 plateau values are more inward than all three reference values, suppressing when all three are less inward, and unresolved when the sets overlap. Sweeps are technical repeats, not biological replicates.
 
-## Frozen Step10 input
+The same-day reference is not claimed to be a verified within-cell pre-drug baseline. Only negative holding potentials are used for the voltage-robustness result in manuscript v1.5.
 
-The source archive SHA-256 is `bffddd17332d16c3048b7e23bcb2ab05a3a4c15213de1aa5eba816b23fd59d99`. Its summary records 50,000 candidates and 5,000 retained sets per prior, seed `20260728`, and control-only shape calibration. Ro25 outcomes and responder labels were not calibration targets.
+## Model, forcing and calibration
 
-The deposited input's decompressed CSV SHA-256 is `9a6b6a1388392c6efb96ed3b3e3e199bb737bc5199d7fd4a8135214d16e8acc2`. Its compressed Git blob SHA is `c9d5d781f2bd0aee6620a3841f2ddcab15d05139`. Availability of this table does not reconstruct proposal distributions or the original calibration-score implementation.
+The Base model is a minimal receptor-state network with two ligand-entry routes feeding shared downstream gating/desensitization states. Its kinetic architecture is related to published NMDAR schemes, including Santucci & Raghavachari (PLoS Comput Biol. 2008;4:e1000208), but the current sampled association coordinates are effective first-order rates.
 
-## Source-table reproduction
+The current glutamate input is a dimensionless normalized drive. In the historical Step10 implementation an internal accumulator `g` is mapped to `G = g/(1+g)`. The repository defines no unique conversion of this `G` to mM.
+
+Historical control calibration uses experimentally derived median shape targets: early/primary 1.100, late/primary 0.638, and charge/primary 257.22 ms. Fixed logarithmic tolerances are 0.35, 0.35 and 0.50, with weight 0.5 on the charge term. The tolerances are frozen calibration settings, not claimed physiological variances. Ro25 outcomes and responder labels were not used for historical control calibration.
+
+## Acute memantine control
+
+The ancillary acute slice experiment used **30 micromolar memantine in the bath**. Chronic oral memantine exposure is not part of this acute control.
+
+## Quick verification
 
 ```bash
 python -m venv .venv
 source .venv/bin/activate
-pip install -r environment/requirements.txt
-python code/reproduce_publication.py
-python code/step_11/reproduce.py
+pip install -r environment/requirements-v1.5.txt
+python code/final_v1_5/verify_publication_v1_5.py
 ```
 
-The second command verifies all saved ancillary measurements and generates Tables S10-S13, Figures S4-S5 and a machine-readable audit in `reproduced/step11_publication/`. Step11 source and data are standard losslessly compressed files; the wrapper verifies and extracts them automatically. See `code/step_11/README.md` for inspecting the source or rerunning extraction with local ABFs.
+This checks the deposited headline results, including the 5/5/1 experimental classification, exact historical calibration replay, local basin fraction, primary Bayesian occupancy, and frozen-threshold global counts. It does not rerun the expensive historical ensembles.
 
-These commands do not rerun all historical receptor-model ensembles. Complete historical Step01-Step09 batch orchestration and a verified end-to-end model rerun remain separate tasks. See `REPRODUCIBILITY.md`.
+See `REPRODUCIBILITY.md` for analysis scope and limitations.
+
+## Data availability boundary
+
+Raw ABF files are not redistributed. The repository provides the final derived measurements used for the manuscript-level conclusions. Raw-waveform extraction, stimulus-artifact masking and recording QC therefore cannot be repeated from this repository alone without the original ABF archive.
 
 ## License
 

@@ -1,0 +1,12 @@
+cell_series,minus40_class,negative_potentiating,negative_suppressing,negative_unresolved,negative_agreement_with_minus40_n_of_5,nonzero_potentiating_n_of_8,nonzero_suppressing_n_of_8,nonzero_unresolved_n_of_8
+2022-10-12_cell1,potentiating,5,0,0,5,5,2,1
+2022-10-12_cell2,suppressing,0,5,0,5,0,8,0
+2022-10-12_cell3,suppressing,0,5,0,5,0,8,0
+2022-10-17_cell1,potentiating,3,0,2,3,6,0,2
+2022-10-17_cell2,potentiating,5,0,0,5,6,0,2
+2022-11-18_cell1,suppressing,0,1,4,1,0,3,5
+2022-11-18_cell2,potentiating,5,0,0,5,8,0,0
+2022-11-18_cell3,potentiating,5,0,0,5,8,0,0
+2022-12-22_cell1,suppressing,0,5,0,5,0,8,0
+2022-12-22_cell2,suppressing,0,4,1,4,0,7,1
+2022-12-23_cell_unknown,unresolved,1,0,4,4,1,0,7

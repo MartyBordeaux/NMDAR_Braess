@@ -1,0 +1,6 @@
+voltage_mV,n_cell_series,raw_potentiating,raw_suppressing,raw_unresolved,qualified_potentiating,qualified_suppressing,qualified_unresolved,low_reference_signal,median_magnitude_ratio
+-80,11,6,4,1,6,4,1,0,1.1781506127797332
+-70,11,4,3,4,4,3,4,0,0.948649186051316
+-60,11,4,4,3,4,4,3,0,0.8674239771558241
+-40,11,5,5,1,5,5,1,0,1.0043074873100633
+-20,11,5,4,2,5,4,2,0,1.037220806020879

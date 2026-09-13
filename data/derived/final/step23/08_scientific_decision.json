@@ -1,0 +1,11 @@
+{
+  "version": "1.0.0",
+  "central_conclusion": "minimal_topology_contains_robust_strong_control_compatible_basin_but_original_independent_parameter_measure_assigns_little_mass",
+  "threshold_sensitivity_supports_conclusion": true,
+  "ordinary_nonextreme_magnitude_support": "ordinary_range_covered_at_sampling_resolution",
+  "extreme_responder_reached_by_sampled_compatible_support": false,
+  "bayesian_conclusion": "coarse_strong_state_occupancy_is_estimable_but_internal_12D_physiological_prior_is_not_identified",
+  "bayesian_main_text_policy": "Report the occupancy posterior and, if model comparison is mentioned, Delta ELPD-LOO with its SE. Do not lead with the grid Bayes factor.",
+  "recommended_model_framing": "Use the Base model as a minimal mechanistic test model. Claim qualitative/topological sufficiency and a robust compatible dynamical regime; do not claim a complete quantitative population model or a uniquely recovered physiological prior.",
+  "next_action": "Integrate the consolidated result into the manuscript and figures; do not add a new kinetic extension unless a new experimental constraint specifically motivates it."
+}

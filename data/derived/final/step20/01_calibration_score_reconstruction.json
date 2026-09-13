@@ -1,0 +1,24 @@
+{
+  "status": "PASS",
+  "target_recovery_method": "algebraic_quadratic_recovery_from_frozen_scores",
+  "targets": {
+    "calibration": {
+      "early_over_primary_median": 1.0998943768471787,
+      "late_over_primary_median": 0.6375504979889549,
+      "charge_over_primary_ms_median": 257.21994520060247,
+      "early_over_primary_log_tolerance": 0.3500000000001135,
+      "late_over_primary_log_tolerance": 0.34999999999999926,
+      "charge_over_primary_log_tolerance": 0.5000000000000102
+    }
+  },
+  "finite_valid_rows_used": 50000,
+  "quadratic_design_rank": 7,
+  "score_rmse_finite_rows": 2.686214726076842e-12,
+  "score_max_abs_error_finite_rows": 6.633626981056295e-11,
+  "score_r2_finite_rows": 1.0,
+  "nonfinite_pattern_mismatches": 0,
+  "historical_acceptance_classification_mismatches": 0,
+  "max_accepted_score": 0.5802103692943137,
+  "min_rejected_score": 0.580246268976824,
+  "cutoff_used_for_validation": 0.5802283191355688
+}

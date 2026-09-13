@@ -1,11 +1,10 @@
 # Manuscript status
 
-The manuscript is currently undergoing author proofreading. The numerical results and source-data hierarchy are frozen, but the text is not yet treated as a release artifact in this repository.
+Current author draft: **v1.5, 13 September 2026**  
+Title: **Paradoxical NMDA response amplification in a robust receptor-state regime**
 
-Current working title:
+The repository is aligned to the numerical claims and provenance hierarchy of manuscript v1.5. The manuscript itself remains an author draft rather than an archival journal version; no acceptance or peer-review outcome is implied.
 
-**Route removal reveals a latent Braess-like amplification regime in an NMDA receptor-state network**
+The authoritative numerical evidence map is `../PUBLICATION_VERSION.md`. Final compact outputs are under `../data/derived/final/`, and frozen historical/final analysis source snapshots are under `../code/final_v1_5/`.
 
-The repository will receive the final TeX source, bibliography, figures, and compiled PDF after the current textual revision is completed. This separation avoids presenting an actively edited draft as the archival publication version.
-
-All numerical tables underlying the current draft are already available under `../data/` and `../provenance/`.
+Figure 1 in v1.5 is an ABF-derived representative display; its quantitative plateau values and experimental class assignments come from independent sweep-level analysis. Raw ABF recordings are not redistributed in this repository.
