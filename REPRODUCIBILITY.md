@@ -13,13 +13,7 @@ pip install -r environment/requirements-v1.5.txt
 python code/final_v1_5/verify_publication_v1_5.py
 ```
 
-The verifier checks the frozen headline outputs without rerunning the expensive model searches. It confirms:
-
-- -40 mV threshold-free classification: 5 potentiating / 5 suppressing / 1 unresolved;
-- Step20 exact historical calibration replay and zero accepted/rejected classification mismatches;
-- Step21 factor-1.5 strong+compatible fraction (~0.682);
-- Step22 primary mean strong-state allocation (~0.458);
-- Step23 frozen-threshold global counts: 1261/50,000 pre-calibration broad candidates and 1/5,000 accepted broad candidates strong somewhere.
+The verifier checks the frozen headline outputs without rerunning the expensive model searches. It confirms the -40 mV 5/5/1 classification, exact Step20 historical calibration replay, Step21 local-basin fraction, Step22 primary strong-state allocation and Step23 frozen-threshold global counts.
 
 ## 2. Experimental result hierarchy
 
@@ -29,28 +23,21 @@ Only -80, -70, -60, -40 and -20 mV enter the voltage-robustness result. Among th
 
 ## 3. Historical Step10 proposal and calibration
 
-The historical Step10 source snapshot under `code/final_v1_5/historical_step10/` defines the Latin-hypercube proposal, broad/reference supports, log/linear sampling flags, and exact control-calibration score. The associated frozen control targets are in `data/derived/final/historical_control_calibration/experimental_targets.json`.
+The historical Step10 snapshot under `code/final_v1_5/historical_step10/` defines the Latin-hypercube proposal, broad/reference supports, log/linear sampling flags and exact control-calibration score. The frozen control targets are in `data/derived/final/historical_control_calibration/experimental_targets.json`.
 
 Control calibration uses early/primary, late/primary and charge/primary control-shape ratios. Ro25 outcomes and responder labels are not calibration targets. The glutamate variable is a dimensionless normalized drive and has no defined direct conversion to mM in this model.
 
 ## 4. Final analysis chain
 
-The publication-aligned chain is:
+The publication-aligned chain is Step18 global prior geometry, Step19 calibration/Braess frontier, Step20 exact historical calibration replay/local compatibility, Step21 expanded basin geometry, Step22 conditional Bayesian occupancy, and Step23 threshold sensitivity/publication consolidation.
 
-- Step18 — global prior geometry and full-grid strong-response confirmation;
-- Step19 — calibration/Braess frontier;
-- Step20 — exact historical calibration replay and local witness compatibility;
-- Step21 — expanded basin geometry and multi-start search;
-- Step22 — conditional Bayesian occupancy analysis;
-- Step23 — threshold sensitivity and publication consolidation.
-
-Compact final outputs required for manuscript claims are deposited under `data/derived/final/step18` ... `step23`. Source snapshots are kept under `code/final_v1_5/` and retain their original server-oriented discovery logic. They document the exact analyses, but a full heavy rerun still requires the corresponding frozen upstream tables and expected directory layout.
+Compact authoritative outputs required for manuscript claims are deposited under `data/derived/final/step18` ... `step23`. Byte-preserving code snapshots for historical Step10 and Steps18-19 are deposited under `code/final_v1_5/`. The complete Step20-23 source files remain in the author analysis package; therefore this repository supports manuscript-level numerical audit, but it is not yet a one-command clean-clone rerun of every heavy search.
 
 ## 5. Figure 1 and raw-data provenance
 
 The current manuscript uses an ABF-derived representative display at -40 mV to illustrate the measured inter-pulse level. The plotted example is explanatory; quantitative plateau values and all class assignments come from the independent sweep-level extraction pipeline rather than digitization of the figure.
 
-Raw ABFs are not redistributed. Consequently, a clean clone can audit the deposited final numerical claims but cannot independently repeat raw waveform extraction, stimulus-artifact masking, baseline subtraction or raw-recording QC. A future raw-data archive should be linked as a separate deposit.
+Raw ABFs are not redistributed. Consequently, a clean clone cannot independently repeat raw waveform extraction, stimulus-artifact masking, baseline subtraction or raw-recording QC without the original ABF archive.
 
 ## 6. Acute memantine
 
