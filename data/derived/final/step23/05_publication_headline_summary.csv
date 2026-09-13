@@ -1,0 +1,8 @@
+stage,metric,value,display,interpretation
+Global broad parameter measure,Strong anywhere on 80-node forcing grid,0.02522,1261/50000 (2.522%),Mathematical accessibility before control calibration
+Historical control-compatible measure,Strong anywhere on 80-node forcing grid,0.0002,1/5000 (0.020%),Very little mass assigned to strong regime by independent accepted sampling
+Exact witness neighborhood,Strong + compatible at +/-5%,1.0,100.0%,"Finite local basin, not an isolated lucky point"
+Expanded witness basin,Strong + compatible in factor-1.5 log box,0.6816666666666666,68.2%,Robust local accessibility
+Expanded witness basin,Rays censored at parameter-box edge,0.6770833333333334,65/96 (67.7%),Many directions remain strong + compatible to allowed box boundary
+Experiment-informed occupancy,"Posterior pi, M1",0.4583333328738977,"0.458 [0.198, 0.733]",Coarse strong-state occupancy is estimable; internal 12D distribution is not
+Magnitude support,Ordinary potentiating responses matched,1.0,ordinary_range_covered_at_sampling_resolution,Extreme responder remains outside sampled compatible support

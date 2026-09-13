@@ -1,0 +1,15 @@
+{
+  "strong_all_n": 1261,
+  "strong_all_fraction": 0.02522,
+  "strong_accepted_n": 1,
+  "strong_accepted_fraction": 0.0002,
+  "strong_classifier_oof_auc": 0.966873511091683,
+  "pca_explained_variance_ratio": [
+    0.08537232192902666,
+    0.08516182149679064,
+    0.08471687798215145,
+    0.08411739153558982,
+    0.08355678413961436,
+    0.0832253129040475
+  ]
+}

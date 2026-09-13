@@ -1,0 +1,10 @@
+{
+  "n_rays": 96,
+  "n_censored_at_parameter_box": 65,
+  "censored_fraction": 0.6770833333333334,
+  "median_first_exit_standardized_distance_uncensored": 0.5008708334220477,
+  "q25_first_exit_standardized_distance_uncensored": 0.28666431135971887,
+  "q75_first_exit_standardized_distance_uncensored": 0.6368696730969374,
+  "median_geometric_mean_fold_at_exit_or_box": 1.1640781760899215,
+  "definition": "first loss of strong AND control-compatible along a ray at representative forcing; censored rays remain inside to the historical coordinate box edge"
+}
