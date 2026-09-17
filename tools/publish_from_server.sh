@@ -12,8 +12,6 @@ command -v git >/dev/null || { echo "git is required" >&2; exit 1; }
 command -v git-lfs >/dev/null || { echo "git-lfs is required" >&2; exit 1; }
 [[ -d "$RAW_ROOT" ]] || { echo "Raw ABF root not found: $RAW_ROOT" >&2; exit 1; }
 
-# Reuse an existing clone instead of deleting the directory from which this
-# script may itself be running.
 if [[ -d "$WORKDIR/.git" ]]; then
   cd "$WORKDIR"
   git fetch origin "$BRANCH"
@@ -27,7 +25,7 @@ else
 fi
 
 git lfs install
-mkdir -p data/raw code/publication_v1_8/{calibration,model,connectivity,consolidation,window_sensitivity} data/source_data_v1_8
+mkdir -p data/raw code/publication_v1_8/{calibration,model,geometry,connectivity,consolidation,window_sensitivity} data/source_data_v1_8
 
 first_existing_dir () {
   local p
@@ -55,39 +53,43 @@ find data/raw/IV_NMDA -type f -iname '*.abf' -print0 | sort -z | xargs -0 sha256
 find data/raw/IV_NMDA -type f -iname '*.abf' | sort > data/raw/ABF_FILELIST.txt
 printf 'Raw source copied from: %s\nGenerated: %s\n' "$RAW_ROOT" "$(date -u +%Y-%m-%dT%H:%M:%SZ)" > data/raw/PROVENANCE.txt
 
-# Final publication pipelines. Accept both the descriptive package names and
-# the shorter step directories used on the analysis server.
 STEP24_DIR=$(first_existing_dir \
   "$NMDA2_ROOT/NMDAR_Braess_step24_calibration_window_correction_v1_0" \
   "$NMDA2_ROOT/step_24") || { echo "Step24 code directory not found" >&2; exit 1; }
+STEP25_DIR=$(first_existing_dir \
+  "$NMDA2_ROOT/NMDAR_Braess_step25_corrected_strong_geometry_v1_0" \
+  "$NMDA2_ROOT/step_25") || { echo "Step25 code directory not found" >&2; exit 1; }
 STEP26_DIR=$(first_existing_dir \
-  "$NMDA2_ROOT/step_26" \
-  "$NMDA2_ROOT/NMDAR_Braess_step26_strong_connectivity_v1_0") || { echo "Step26 code directory not found" >&2; exit 1; }
+  "$NMDA2_ROOT/NMDAR_Braess_step26_strong_connectivity_v1_0" \
+  "$NMDA2_ROOT/step_26") || { echo "Step26 code directory not found" >&2; exit 1; }
 STEP27_DIR=$(first_existing_dir \
-  "$NMDA2_ROOT/step_27" \
-  "$NMDA2_ROOT/NMDAR_Braess_step27_curved_bridge_optimization_v1_0") || { echo "Step27 code directory not found" >&2; exit 1; }
+  "$NMDA2_ROOT/NMDAR_Braess_step27_curved_bridge_optimization_v1_0" \
+  "$NMDA2_ROOT/step_27") || { echo "Step27 code directory not found" >&2; exit 1; }
 STEP28_DIR=$(first_existing_dir \
-  "$NMDA2_ROOT/step_28" \
-  "$NMDA2_ROOT/NMDAR_Braess_step28_residual_connectivity_stress_v1_0") || { echo "Step28 code directory not found" >&2; exit 1; }
+  "$NMDA2_ROOT/NMDAR_Braess_step28_residual_connectivity_stress_v1_0" \
+  "$NMDA2_ROOT/step_28") || { echo "Step28 code directory not found" >&2; exit 1; }
 STEP29_DIR=$(first_existing_dir \
-  "$NMDA2_ROOT/step_29" \
-  "$NMDA2_ROOT/NMDAR_Braess_step29_corrected_publication_consolidation_v1_0") || { echo "Step29 code directory not found" >&2; exit 1; }
+  "$NMDA2_ROOT/NMDAR_Braess_step29_corrected_publication_consolidation_v1_0" \
+  "$NMDA2_ROOT/step_29") || { echo "Step29 code directory not found" >&2; exit 1; }
 STEP31_DIR=$(first_existing_dir \
-  "$NMDA2_ROOT/step_31" \
-  "$NMDA2_ROOT/NMDAR_Braess_step31_window_robustness_final_v1_0_2") || { echo "Step31 code directory not found" >&2; exit 1; }
+  "$NMDA2_ROOT/NMDAR_Braess_step31_window_robustness_final_v1_0_2" \
+  "$NMDA2_ROOT/step_31") || { echo "Step31 code directory not found" >&2; exit 1; }
 
 copy_pipeline "$STEP24_DIR" code/publication_v1_8/calibration/step24
+copy_pipeline "$STEP25_DIR" code/publication_v1_8/geometry/step25
 copy_pipeline "$STEP26_DIR" code/publication_v1_8/connectivity/step26
 copy_pipeline "$STEP27_DIR" code/publication_v1_8/connectivity/step27
 copy_pipeline "$STEP28_DIR" code/publication_v1_8/connectivity/step28
 copy_pipeline "$STEP29_DIR" code/publication_v1_8/consolidation/step29
 copy_pipeline "$STEP31_DIR" code/publication_v1_8/window_sensitivity/step31
 
-# Preserve the frozen Step25 engine used by downstream connectivity code.
+# Preserve the exact Step25 engine snapshot imported by downstream connectivity code.
 for f in \
-  "$STEP26_DIR/step25_engine_snapshot.py" \
-  "$NMDA2_ROOT/step_25/step25_engine_snapshot.py" \
-  "$NMDA2_ROOT/step_25/step25_engine.py"; do
+  "$NMDA2_ROOT/NMDAR_Braess_step26_strong_connectivity_v1_0/step25_engine_snapshot.py" \
+  "$NMDA2_ROOT/NMDAR_Braess_step27_curved_bridge_optimization_v1_0/step25_engine_snapshot.py" \
+  "$NMDA2_ROOT/NMDAR_Braess_step28_residual_connectivity_stress_v1_0/step25_engine_snapshot.py" \
+  "$NMDA2_ROOT/NMDAR_Braess_step29_corrected_publication_consolidation_v1_0/step25_engine_snapshot.py" \
+  "$STEP26_DIR/step25_engine_snapshot.py"; do
   if [[ -f "$f" ]]; then
     cp -f "$f" code/publication_v1_8/model/step25_engine.py
     break
@@ -99,9 +101,15 @@ if [[ -f "$NMDA_ROOT/10_matched_rerouting.py" ]]; then
 fi
 
 # Final machine-readable source data
+STEP25_RESULTS="$NMDA2_ROOT/step_25/results_step_25_corrected_strong_geometry"
 STEP29_RESULTS="$NMDA2_ROOT/step_29/results_step_29_corrected_publication_consolidation"
 STEP31_RESULTS="$NMDA2_ROOT/step_31/results_step_31_window_robustness_final"
 STEP24_RESULTS="$STEP24_DIR/results_step_24_calibration_window_correction"
+
+if [[ -d "$STEP25_RESULTS" ]]; then
+  mkdir -p data/source_data_v1_8/step25
+  find "$STEP25_RESULTS" -maxdepth 1 -type f \( -name '*.csv' -o -name '*.csv.gz' -o -name '*.json' -o -name '*.md' \) -exec cp -f {} data/source_data_v1_8/step25/ \;
+fi
 
 [[ -d "$STEP29_RESULTS" ]] || { echo "Missing Step29 results: $STEP29_RESULTS" >&2; exit 1; }
 mkdir -p data/source_data_v1_8/step29
@@ -129,12 +137,13 @@ echo "ABF files staged: $ABF_N"
 [[ "$ABF_N" -gt 0 ]] || { echo "No ABF files found" >&2; exit 1; }
 
 required=(
+  code/publication_v1_8/geometry/step25/step25_corrected_strong_geometry.py
+  code/publication_v1_8/model/step25_engine.py
   data/source_data_v1_8/step29/02_final_strong40_topology.csv
   data/source_data_v1_8/step29/03_final_verified_network_edges.csv
   data/source_data_v1_8/step29/05_publication_representatives.csv
   data/source_data_v1_8/step31/06_final40_window_retention.csv
   data/source_data_v1_8/step31/10_scientific_summary.json
-  code/publication_v1_8/model/step25_engine.py
 )
 for f in "${required[@]}"; do
   [[ -f "$f" ]] || { echo "Required publication file missing: $f" >&2; exit 1; }
