@@ -12,4 +12,4 @@ Primary frozen results:
 
 The proposal draws and calibration-filtered ensembles are computational samples, not Bayesian posterior distributions. Parameter-path connectivity is a finite numerical result, not proof of global topological disconnectedness in the continuous 12-rate space.
 
-Publication release status: code/source-data staging is active on `publication-v1.8-staging`; the branch should not be tagged as the final archival release until the raw ABF deposit and checksum manifest are present under `data/raw/`.
+Publication release status: the v1.8 code, source-data tables, frozen Step 10 model-input archive, raw ABF recordings, ABF inventory and SHA-256 manifest are deposited in the repository. Raw ABFs are stored with Git LFS. The `main` branch is the publication-facing branch after merge of the audited v1.8 staging branch.
