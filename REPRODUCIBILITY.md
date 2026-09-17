@@ -1,52 +1,53 @@
 # Reproducibility
 
-This document defines the reproducibility scope of manuscript v1.5, **Paradoxical NMDA response amplification in a robust receptor-state regime**.
+This document defines the reproducibility scope of the final Neuropharmacology author manuscript (publication analysis v1.8, September 2026).
 
-## 1. Fast manuscript-level integrity audit
+## 1. Experimental data
 
-From the repository root:
+The raw electrophysiology source is the Axon Binary Format archive deposited under `data/raw/`. The publication release preserves the original relative folder structure and includes `data/raw/SHA256SUMS.txt` as the authoritative raw-file manifest.
 
-```bash
-python -m venv .venv
-source .venv/bin/activate
-pip install -r environment/requirements-v1.5.txt
-python code/final_v1_5/verify_publication_v1_5.py
-```
+The primary Ro25 result is based on complete separation of the technical sweeps at -40 mV: 5 series are potentiating, 5 suppressing and 1 unresolved. Negative-voltage robustness is evaluated at -80, -70, -60, -40 and -20 mV. Control-shape calibration metrics are extracted from untreated SlowEPSC reference recordings; Ro25 and memantine recordings are excluded from calibration.
 
-The verifier checks the frozen headline outputs without rerunning the expensive model searches. It confirms the -40 mV 5/5/1 classification, exact Step20 historical calibration replay, Step21 local-basin fraction, Step22 primary strong-state allocation and Step23 frozen-threshold global counts.
+The post-train experimental observables are computed after baseline subtraction as early mean current (140-200 ms), primary mean current (140-250 ms), late mean current (200-500 ms), and integrated current over 140-500 ms. The corresponding control targets are formed as within-series ratios and then aggregated across the five control series.
 
-## 2. Experimental result hierarchy
+## 2. Model and calibration
 
-The final -40 mV classifier is `data/derived/final/step15/minus40_sweep_separation.csv`, not the earlier +/-2 pA neutral rule. Each series compares three Ro25 sweeps with three same-day same-voltage reference sweeps; sweeps are technical repeats. The final result is 5 potentiating, 5 suppressing and 1 unresolved series.
+The Base receptor-state model is implemented under `code/model/` and the final publication engine is deposited under `code/publication_v1_8/model/`. Route removal is implemented by making the B-entry route unavailable while keeping all other kinetic rates, the forcing protocol and initial conditions fixed.
 
-Only -80, -70, -60, -40 and -20 mV enter the voltage-robustness result. Among the ten series resolved at -40 mV, 43/50 within-series negative-voltage comparisons show complete separation in the same direction, seven are unresolved and none show opposite complete separation.
+The final calibration observables are
 
-## 3. Historical Step10 proposal and calibration
+- `E = <P_O>_140-200`,
+- `H = <P_O>_140-250`,
+- `L = <P_O>_200-500`,
+- `J = integral_140^500 P_O(t) dt`.
 
-The historical Step10 snapshot under `code/final_v1_5/historical_step10/` defines the Latin-hypercube proposal, broad/reference supports, log/linear sampling flags and exact control-calibration score. The frozen control targets are in `data/derived/final/historical_control_calibration/experimental_targets.json`.
+The control targets are 1.0998943768 for E/H, 0.6375504980 for L/H and 257.2199452 ms for J/H. The conservative minimum log-tolerances are 0.35, 0.35 and 0.50, respectively, with weight 0.5 on the integral term. Ro25 response labels are not used to select the control-calibrated ensemble.
 
-Control calibration uses early/primary, late/primary and charge/primary control-shape ratios. Ro25 outcomes and responder labels are not calibration targets. The glutamate variable is a dimensionless normalized drive and has no defined direct conversion to mM in this model.
+The experiment-scale amplification benchmark is `r_plateau >= 1.63592954395`, the smallest observed potentiating ratio at -40 mV.
 
-## 4. Final analysis chain
+## 3. Final computational chain
 
-The publication-aligned chain is Step18 global prior geometry, Step19 calibration/Braess frontier, Step20 exact historical calibration replay/local compatibility, Step21 expanded basin geometry, Step22 conditional Bayesian occupancy, and Step23 threshold sensitivity/publication consolidation.
+The publication-aligned sequence is:
 
-Compact authoritative outputs required for manuscript claims are deposited under `data/derived/final/step18` ... `step23`. Byte-preserving code snapshots for historical Step10 and Steps18-19 are deposited under `code/final_v1_5/`. The complete Step20-23 source files remain in the author analysis package; therefore this repository supports manuscript-level numerical audit, but it is not yet a one-command clean-clone rerun of every heavy search.
+1. replay/generate the Base-model parameter candidates;
+2. evaluate the final control-shape calibration score and retain the calibrated ensemble;
+3. confirm amplification on the frozen 80-node forcing grid;
+4. test sampled connectivity with Steps 26-28;
+5. consolidate representatives, experimental-ratio matches and local perturbation summaries with Step 29;
+6. evaluate sensitivity to 27 predefined post-train window schemes with Step 31.
 
-## 5. Figure 1 and raw-data provenance
+The final scripts are grouped under `code/publication_v1_8/`. Earlier code snapshots remain in the repository only for provenance.
 
-The current manuscript uses an ABF-derived representative display at -40 mV to illustrate the measured inter-pulse level. The plotted example is explanatory; quantitative plateau values and all class assignments come from the independent sweep-level extraction pipeline rather than digitization of the figure.
+## 4. Connectivity interpretation
 
-Raw ABFs are not redistributed. Consequently, a clean clone cannot independently repeat raw waveform extraction, stimulus-artifact masking, baseline subtraction or raw-recording QC without the original ABF archive.
+A verified parameter path is an interpolation between two complete kinetic parameter sets for which every evaluated intermediate model remains both control-compatible and experiment-scale amplifying. The final sampled endpoint-preserving graph contains a dominant connected component of 36 solutions, a smaller component of 3 and 1 isolated sampled solution.
 
-## 6. Acute memantine
+This is a finite numerical connectivity result. It does not prove that the corresponding regions are globally disconnected in the continuous 12-rate parameter space. Likewise, local perturbation pass fractions are computational robustness summaries, not biological prevalence estimates.
 
-The ancillary acute slice experiment used 30 micromolar memantine in the bath. It is distinct from chronic oral memantine treatment in the cited SCA1 study and from the primary Ro25 analysis.
+## 5. Window sensitivity
 
-## 7. Interpretation boundary
+The operational boundaries 200, 250 and 500 ms were tested by varying the split boundary over 180/200/220 ms, the primary-window endpoint over 230/250/270 ms and the late endpoint over 450/500/550 ms, yielding 27 schemes. The primary representative is retained under every scheme. The exact membership of the calibrated ensemble is quantitatively window-sensitive, whereas experiment-scale amplification remains available throughout the tested definitions.
 
-Fractions of sampled parameter sets or forcing contexts are measures of accessibility under specified computational sampling schemes, not biological prevalence. The Bayesian analysis estimates allocation conditional on the chosen model family and observed labels; it does not identify a unique biochemical prior.
+## 6. Software environment
 
-## 8. Software environment
-
-Core final-analysis dependencies are Python 3, NumPy, pandas, SciPy, Matplotlib and scikit-learn. Raw ABF extraction additionally requires pyABF. Historical source snapshots are preserved for provenance even where their original server path discovery must be adapted for a new machine.
+Core dependencies are Python 3, NumPy, pandas, SciPy, Matplotlib and Numba; raw ABF extraction additionally requires pyABF. The per-step `requirements.txt` files in `code/publication_v1_8/` document the packages used by each final pipeline.

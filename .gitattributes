@@ -1,0 +1,4 @@
+*.abf filter=lfs diff=lfs merge=lfs -text
+*.zip binary
+*.pdf binary
+*.png binary

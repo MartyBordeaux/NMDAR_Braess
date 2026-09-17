@@ -9,4 +9,3 @@ __pycache__/
 *.synctex.gz
 results_*/
 _checkpoints/
-*.abf

@@ -1,0 +1,616 @@
+data/raw/IV_NMDA/02.12.2021/Capa 1Group1Series1.abf
+data/raw/IV_NMDA/02.12.2021/Capa 2Group1Series1.abf
+data/raw/IV_NMDA/02.12.2021/Cell 2 +NBQX +Mem slowEPSC +20Group1Series1.abf
+data/raw/IV_NMDA/02.12.2021/Cell 2 +NBQX +Mem slowEPSC +60Group1Series1.abf
+data/raw/IV_NMDA/02.12.2021/Cell 2 +NBQX +Mem slowEPSC -20Group1Series1.abf
+data/raw/IV_NMDA/02.12.2021/Cell 2 +NBQX +Mem slowEPSC -40Group1Series1.abf
+data/raw/IV_NMDA/02.12.2021/Cell 2 +NBQX +Mem slowEPSC -60Group1Series1.abf
+data/raw/IV_NMDA/02.12.2021/Cell 2 +NBQX +Mem slowEPSC -70Group1Series1.abf
+data/raw/IV_NMDA/02.12.2021/Cell 2 +NBQX +Mem slowEPSC -80Group1Series1.abf
+data/raw/IV_NMDA/02.12.2021/Cell 2 +NBQX +Mem slowEPSC 0Group1Series1.abf
+data/raw/IV_NMDA/02.12.2021/Cell 2 +NBQX slowEPSC +20Group1Series1.abf
+data/raw/IV_NMDA/02.12.2021/Cell 2 +NBQX slowEPSC +60Group1Series1.abf
+data/raw/IV_NMDA/02.12.2021/Cell 2 +NBQX slowEPSC -20Group1Series1.abf
+data/raw/IV_NMDA/02.12.2021/Cell 2 +NBQX slowEPSC -40Group1Series1.abf
+data/raw/IV_NMDA/02.12.2021/Cell 2 +NBQX slowEPSC -60Group1Series1.abf
+data/raw/IV_NMDA/02.12.2021/Cell 2 +NBQX slowEPSC -70Group1Series1.abf
+data/raw/IV_NMDA/02.12.2021/Cell 2 +NBQX slowEPSC -80Group1Series1.abf
+data/raw/IV_NMDA/02.12.2021/Cell 2 +NBQX slowEPSC 0Group1Series1.abf
+data/raw/IV_NMDA/02.12.2021/Cell 2 PF-EPSC +20Group1Series1.abf
+data/raw/IV_NMDA/02.12.2021/Cell 2 PF-EPSC +40Group1Series1.abf
+data/raw/IV_NMDA/02.12.2021/Cell 2 PF-EPSC +60Group1Series1.abf
+data/raw/IV_NMDA/02.12.2021/Cell 2 PF-EPSC -20Group1Series1.abf
+data/raw/IV_NMDA/02.12.2021/Cell 2 PF-EPSC -40Group1Series1.abf
+data/raw/IV_NMDA/02.12.2021/Cell 2 PF-EPSC -60Group1Series1.abf
+data/raw/IV_NMDA/02.12.2021/Cell 2 PF-EPSC -70Group1Series1.abf
+data/raw/IV_NMDA/02.12.2021/Cell 2 PF-EPSC -80Group1Series1.abf
+data/raw/IV_NMDA/02.12.2021/Cell 2 PF-EPSC 0Group1Series1.abf
+data/raw/IV_NMDA/02.12.2021/Cell1 +NBQX +Mem slowEPSC +20Group1Series1.abf
+data/raw/IV_NMDA/02.12.2021/Cell1 +NBQX +Mem slowEPSC +40Group1Series1.abf
+data/raw/IV_NMDA/02.12.2021/Cell1 +NBQX +Mem slowEPSC +60Group1Series1.abf
+data/raw/IV_NMDA/02.12.2021/Cell1 +NBQX +Mem slowEPSC -20Group1Series1.abf
+data/raw/IV_NMDA/02.12.2021/Cell1 +NBQX +Mem slowEPSC -40Group1Series1.abf
+data/raw/IV_NMDA/02.12.2021/Cell1 +NBQX +Mem slowEPSC -60Group1Series1.abf
+data/raw/IV_NMDA/02.12.2021/Cell1 +NBQX +Mem slowEPSC -70Group1Series1.abf
+data/raw/IV_NMDA/02.12.2021/Cell1 +NBQX +Mem slowEPSC -80Group1Series1.abf
+data/raw/IV_NMDA/02.12.2021/Cell1 +NBQX +Mem slowEPSC 0Group1Series1.abf
+data/raw/IV_NMDA/02.12.2021/Cell1 +NBQX slowEPSC +20Group1Series1.abf
+data/raw/IV_NMDA/02.12.2021/Cell1 +NBQX slowEPSC +60Group1Series1.abf
+data/raw/IV_NMDA/02.12.2021/Cell1 +NBQX slowEPSC -20Group1Series1.abf
+data/raw/IV_NMDA/02.12.2021/Cell1 +NBQX slowEPSC -40Group1Series1.abf
+data/raw/IV_NMDA/02.12.2021/Cell1 +NBQX slowEPSC -60Group1Series1.abf
+data/raw/IV_NMDA/02.12.2021/Cell1 +NBQX slowEPSC -70Group1Series1.abf
+data/raw/IV_NMDA/02.12.2021/Cell1 +NBQX slowEPSC -80Group1Series1.abf
+data/raw/IV_NMDA/02.12.2021/Cell1 +NBQX slowEPSC 0Group1Series1.abf
+data/raw/IV_NMDA/02.12.2021/Cell1 PF-EPSC +20Group1Series1.abf
+data/raw/IV_NMDA/02.12.2021/Cell1 PF-EPSC +40Group1Series1.abf
+data/raw/IV_NMDA/02.12.2021/Cell1 PF-EPSC +60Group1Series1.abf
+data/raw/IV_NMDA/02.12.2021/Cell1 PF-EPSC -20Group1Series1.abf
+data/raw/IV_NMDA/02.12.2021/Cell1 PF-EPSC -40Group1Series1.abf
+data/raw/IV_NMDA/02.12.2021/Cell1 PF-EPSC -60Group1Series1.abf
+data/raw/IV_NMDA/02.12.2021/Cell1 PF-EPSC -70Group1Series1.abf
+data/raw/IV_NMDA/02.12.2021/Cell1 PF-EPSC -80Group1Series1.abf
+data/raw/IV_NMDA/02.12.2021/Cell1 PF-EPSC 0Group1Series1.abf
+data/raw/IV_NMDA/02.12.2021/Cell3 +NBQX slowEPSC +20Group1Series1.abf
+data/raw/IV_NMDA/02.12.2021/Cell3 +NBQX slowEPSC +60Group1Series1.abf
+data/raw/IV_NMDA/02.12.2021/Cell3 +NBQX slowEPSC -20Group1Series1.abf
+data/raw/IV_NMDA/02.12.2021/Cell3 +NBQX slowEPSC -40Group1Series1.abf
+data/raw/IV_NMDA/02.12.2021/Cell3 +NBQX slowEPSC -60Group1Series1.abf
+data/raw/IV_NMDA/02.12.2021/Cell3 +NBQX slowEPSC -70Group1Series1.abf
+data/raw/IV_NMDA/02.12.2021/Cell3 +NBQX slowEPSC -80Group1Series1.abf
+data/raw/IV_NMDA/02.12.2021/Cell3 +NBQX slowEPSC 0Group1Series1.abf
+data/raw/IV_NMDA/02.12.2021/Cell3 PF-EPSC +20Group1Series1.abf
+data/raw/IV_NMDA/02.12.2021/Cell3 PF-EPSC +40Group1Series1.abf
+data/raw/IV_NMDA/02.12.2021/Cell3 PF-EPSC +60Group1Series1.abf
+data/raw/IV_NMDA/02.12.2021/Cell3 PF-EPSC -20Group1Series1.abf
+data/raw/IV_NMDA/02.12.2021/Cell3 PF-EPSC -40Group1Series1.abf
+data/raw/IV_NMDA/02.12.2021/Cell3 PF-EPSC -60Group1Series1.abf
+data/raw/IV_NMDA/02.12.2021/Cell3 PF-EPSC -70Group1Series1.abf
+data/raw/IV_NMDA/02.12.2021/Cell3 PF-EPSC -80Group1Series1.abf
+data/raw/IV_NMDA/02.12.2021/Cell3 PF-EPSC 0Group1Series1.abf
+data/raw/IV_NMDA/03.12.2021/Cell1 +NBQX +Mem slowEPSC +20Group1Series1.abf
+data/raw/IV_NMDA/03.12.2021/Cell1 +NBQX +Mem slowEPSC +60Group1Series1.abf
+data/raw/IV_NMDA/03.12.2021/Cell1 +NBQX +Mem slowEPSC -20Group1Series1.abf
+data/raw/IV_NMDA/03.12.2021/Cell1 +NBQX +Mem slowEPSC -40Group1Series1.abf
+data/raw/IV_NMDA/03.12.2021/Cell1 +NBQX +Mem slowEPSC -60Group1Series1.abf
+data/raw/IV_NMDA/03.12.2021/Cell1 +NBQX +Mem slowEPSC -70Group1Series1.abf
+data/raw/IV_NMDA/03.12.2021/Cell1 +NBQX +Mem slowEPSC -80Group1Series1.abf
+data/raw/IV_NMDA/03.12.2021/Cell1 +NBQX +Mem slowEPSC 0Group1Series1.abf
+data/raw/IV_NMDA/03.12.2021/Cell1 +NBQX slowEPSC +20Group1Series1.abf
+data/raw/IV_NMDA/03.12.2021/Cell1 +NBQX slowEPSC +60Group1Series1.abf
+data/raw/IV_NMDA/03.12.2021/Cell1 +NBQX slowEPSC -20Group1Series1.abf
+data/raw/IV_NMDA/03.12.2021/Cell1 +NBQX slowEPSC -40Group1Series1.abf
+data/raw/IV_NMDA/03.12.2021/Cell1 +NBQX slowEPSC -60Group1Series1.abf
+data/raw/IV_NMDA/03.12.2021/Cell1 +NBQX slowEPSC -70Group1Series1.abf
+data/raw/IV_NMDA/03.12.2021/Cell1 +NBQX slowEPSC -80Group1Series1.abf
+data/raw/IV_NMDA/03.12.2021/Cell1 +NBQX slowEPSC 0Group1Series1.abf
+data/raw/IV_NMDA/03.12.2021/Cell1 CapaGroup1Series1.abf
+data/raw/IV_NMDA/03.12.2021/Cell1 PF-EPSC +20Group1Series1.abf
+data/raw/IV_NMDA/03.12.2021/Cell1 PF-EPSC +40Group1Series1.abf
+data/raw/IV_NMDA/03.12.2021/Cell1 PF-EPSC +60Group1Series1.abf
+data/raw/IV_NMDA/03.12.2021/Cell1 PF-EPSC -20Group1Series1.abf
+data/raw/IV_NMDA/03.12.2021/Cell1 PF-EPSC -40Group1Series1.abf
+data/raw/IV_NMDA/03.12.2021/Cell1 PF-EPSC -60Group1Series1.abf
+data/raw/IV_NMDA/03.12.2021/Cell1 PF-EPSC -70Group1Series1.abf
+data/raw/IV_NMDA/03.12.2021/Cell1 PF-EPSC -80Group1Series1.abf
+data/raw/IV_NMDA/15.03.2022/Cell1/PF+0+memGroup1Series1.abf
+data/raw/IV_NMDA/15.03.2022/Cell1/PF+0Group1Series1.abf
+data/raw/IV_NMDA/15.03.2022/Cell1/PF+20+memGroup1Series1.abf
+data/raw/IV_NMDA/15.03.2022/Cell1/PF+20Group1Series1.abf
+data/raw/IV_NMDA/15.03.2022/Cell1/PF+40+memGroup1Series1.abf
+data/raw/IV_NMDA/15.03.2022/Cell1/PF+40Group1Series1.abf
+data/raw/IV_NMDA/15.03.2022/Cell1/PF+60+memGroup1Series1.abf
+data/raw/IV_NMDA/15.03.2022/Cell1/PF+60Group1Series1.abf
+data/raw/IV_NMDA/15.03.2022/Cell1/PF-20+memGroup1Series1.abf
+data/raw/IV_NMDA/15.03.2022/Cell1/PF-20Group1Series1.abf
+data/raw/IV_NMDA/15.03.2022/Cell1/PF-40+memGroup1Series1.abf
+data/raw/IV_NMDA/15.03.2022/Cell1/PF-40Group1Series1.abf
+data/raw/IV_NMDA/15.03.2022/Cell1/PF-60+memGroup1Series1.abf
+data/raw/IV_NMDA/15.03.2022/Cell1/PF-60Group1Series1.abf
+data/raw/IV_NMDA/15.03.2022/Cell1/PF-70+memGroup1Series1.abf
+data/raw/IV_NMDA/15.03.2022/Cell1/PF-70Group1Series1.abf
+data/raw/IV_NMDA/15.03.2022/Cell1/PF-80+memGroup1Series1.abf
+data/raw/IV_NMDA/15.03.2022/Cell1/PF-80Group1Series1.abf
+data/raw/IV_NMDA/15.03.2022/Cell1/Slow EPSC+0+memGroup1Series1.abf
+data/raw/IV_NMDA/15.03.2022/Cell1/Slow EPSC+20+memGroup1Series1.abf
+data/raw/IV_NMDA/15.03.2022/Cell1/Slow EPSC+60+memGroup1Series1.abf
+data/raw/IV_NMDA/15.03.2022/Cell1/Slow EPSC-20+memGroup1Series1.abf
+data/raw/IV_NMDA/15.03.2022/Cell1/Slow EPSC-40+memGroup1Series1.abf
+data/raw/IV_NMDA/15.03.2022/Cell1/Slow EPSC-60+memGroup1Series1.abf
+data/raw/IV_NMDA/15.03.2022/Cell1/Slow EPSC-70+memGroup1Series1.abf
+data/raw/IV_NMDA/15.03.2022/Cell1/Slow EPSC-80+memGroup1Series1.abf
+data/raw/IV_NMDA/15.03.2022/Cell1/slowEPSC+0Group1Series1.abf
+data/raw/IV_NMDA/15.03.2022/Cell1/slowEPSC+20Group1Series1.abf
+data/raw/IV_NMDA/15.03.2022/Cell1/slowEPSC+40Group1Series1.abf
+data/raw/IV_NMDA/15.03.2022/Cell1/slowEPSC+60Group1Series1.abf
+data/raw/IV_NMDA/15.03.2022/Cell1/slowEPSC-20Group1Series1.abf
+data/raw/IV_NMDA/15.03.2022/Cell1/slowEPSC-40Group1Series1.abf
+data/raw/IV_NMDA/15.03.2022/Cell1/slowEPSC-60Group1Series1.abf
+data/raw/IV_NMDA/15.03.2022/Cell1/slowEPSC-70Group1Series1.abf
+data/raw/IV_NMDA/15.03.2022/Cell1/slowEPSC-80Group1Series1.abf
+data/raw/IV_NMDA/15.03.2022/Cell2/Capa2Group1Series1.abf
+data/raw/IV_NMDA/15.03.2022/Cell2/PF2+60+memGroup1Series1.abf
+data/raw/IV_NMDA/15.03.2022/Cell2/PF2+60Group1Series1.abf
+data/raw/IV_NMDA/15.03.2022/Cell2/PF2-20+memGroup1Series1.abf
+data/raw/IV_NMDA/15.03.2022/Cell2/PF2-20Group1Series1.abf
+data/raw/IV_NMDA/15.03.2022/Cell2/PF2-40+memGroup1Series1.abf
+data/raw/IV_NMDA/15.03.2022/Cell2/PF2-40Group1Series1.abf
+data/raw/IV_NMDA/15.03.2022/Cell2/PF2-60+memGroup1Series1.abf
+data/raw/IV_NMDA/15.03.2022/Cell2/PF2-60Group1Series1.abf
+data/raw/IV_NMDA/15.03.2022/Cell2/PF2-70+memGroup1Series1.abf
+data/raw/IV_NMDA/15.03.2022/Cell2/PF2-70Group1Series1.abf
+data/raw/IV_NMDA/15.03.2022/Cell2/PF2-80+memGroup1Series1.abf
+data/raw/IV_NMDA/15.03.2022/Cell2/PF2-80Group1Series1.abf
+data/raw/IV_NMDA/15.03.2022/Cell2/SlowEPSC2+0+memGroup1Series1.abf
+data/raw/IV_NMDA/15.03.2022/Cell2/SlowEPSC2+0Group1Series1.abf
+data/raw/IV_NMDA/15.03.2022/Cell2/SlowEPSC2+20+memGroup1Series1.abf
+data/raw/IV_NMDA/15.03.2022/Cell2/SlowEPSC2+20Group1Series1.abf
+data/raw/IV_NMDA/15.03.2022/Cell2/SlowEPSC2+60+memGroup1Series1.abf
+data/raw/IV_NMDA/15.03.2022/Cell2/SlowEPSC2+60Group1Series1.abf
+data/raw/IV_NMDA/15.03.2022/Cell2/SlowEPSC2-20+memGroup1Series1.abf
+data/raw/IV_NMDA/15.03.2022/Cell2/SlowEPSC2-20Group1Series1.abf
+data/raw/IV_NMDA/15.03.2022/Cell2/SlowEPSC2-40+memGroup1Series1.abf
+data/raw/IV_NMDA/15.03.2022/Cell2/SlowEPSC2-40Group1Series1.abf
+data/raw/IV_NMDA/15.03.2022/Cell2/SlowEPSC2-60+memGroup1Series1.abf
+data/raw/IV_NMDA/15.03.2022/Cell2/SlowEPSC2-60Group1Series1.abf
+data/raw/IV_NMDA/15.03.2022/Cell2/SlowEPSC2-70+memGroup1Series1.abf
+data/raw/IV_NMDA/15.03.2022/Cell2/SlowEPSC2-70Group1Series1.abf
+data/raw/IV_NMDA/15.03.2022/Cell2/SlowEPSC2-80+memGroup1Series1.abf
+data/raw/IV_NMDA/15.03.2022/Cell2/SlowEPSC2-80Group1Series1.abf
+data/raw/IV_NMDA/17.06.2022/PF1+0Group1Series1.abf
+data/raw/IV_NMDA/17.06.2022/PF1+20Group1Series1.abf
+data/raw/IV_NMDA/17.06.2022/PF1+40Group1Series1.abf
+data/raw/IV_NMDA/17.06.2022/PF1+60Group1Series1.abf
+data/raw/IV_NMDA/17.06.2022/PF1+mem+0Group1Series1.abf
+data/raw/IV_NMDA/17.06.2022/PF1+mem+20Group1Series1.abf
+data/raw/IV_NMDA/17.06.2022/PF1+mem+40Group1Series1.abf
+data/raw/IV_NMDA/17.06.2022/PF1+mem+60Group1Series1.abf
+data/raw/IV_NMDA/17.06.2022/PF1+mem-20Group1Series1.abf
+data/raw/IV_NMDA/17.06.2022/PF1+mem-40Group1Series1.abf
+data/raw/IV_NMDA/17.06.2022/PF1+mem-60Group1Series1.abf
+data/raw/IV_NMDA/17.06.2022/PF1+mem-70Group1Series1.abf
+data/raw/IV_NMDA/17.06.2022/PF1+mem-80Group1Series1.abf
+data/raw/IV_NMDA/17.06.2022/PF1-1+0Group1Series1.abf
+data/raw/IV_NMDA/17.06.2022/PF1-1+20Group1Series1.abf
+data/raw/IV_NMDA/17.06.2022/PF1-1+40Group1Series1.abf
+data/raw/IV_NMDA/17.06.2022/PF1-1+60Group1Series1.abf
+data/raw/IV_NMDA/17.06.2022/PF1-1-20Group1Series1.abf
+data/raw/IV_NMDA/17.06.2022/PF1-1-40Group1Series1.abf
+data/raw/IV_NMDA/17.06.2022/PF1-1-60Group1Series1.abf
+data/raw/IV_NMDA/17.06.2022/PF1-1-70Group1Series1.abf
+data/raw/IV_NMDA/17.06.2022/PF1-20Group1Series1.abf
+data/raw/IV_NMDA/17.06.2022/PF1-40Group1Series1.abf
+data/raw/IV_NMDA/17.06.2022/PF1-60Group1Series1.abf
+data/raw/IV_NMDA/17.06.2022/PF1-70Group1Series1.abf
+data/raw/IV_NMDA/17.06.2022/PF1-80Group1Series1.abf
+data/raw/IV_NMDA/17.06.2022/PF2+0Group1Series1.abf
+data/raw/IV_NMDA/17.06.2022/PF2+20Group1Series1.abf
+data/raw/IV_NMDA/17.06.2022/PF2+40Group1Series1.abf
+data/raw/IV_NMDA/17.06.2022/PF2+60Group1Series1.abf
+data/raw/IV_NMDA/17.06.2022/PF2+mem+0Group1Series1.abf
+data/raw/IV_NMDA/17.06.2022/PF2+mem+20Group1Series1.abf
+data/raw/IV_NMDA/17.06.2022/PF2+mem+40Group1Series1.abf
+data/raw/IV_NMDA/17.06.2022/PF2+mem+60Group1Series1.abf
+data/raw/IV_NMDA/17.06.2022/PF2+mem-20Group1Series1.abf
+data/raw/IV_NMDA/17.06.2022/PF2+mem-40Group1Series1.abf
+data/raw/IV_NMDA/17.06.2022/PF2+mem-60Group1Series1.abf
+data/raw/IV_NMDA/17.06.2022/PF2+mem-70Group1Series1.abf
+data/raw/IV_NMDA/17.06.2022/PF2+mem-80Group1Series1.abf
+data/raw/IV_NMDA/17.06.2022/PF2-20Group1Series1.abf
+data/raw/IV_NMDA/17.06.2022/PF2-40Group1Series1.abf
+data/raw/IV_NMDA/17.06.2022/PF2-60Group1Series1.abf
+data/raw/IV_NMDA/17.06.2022/PF2-70Group1Series1.abf
+data/raw/IV_NMDA/17.06.2022/PF2-80Group1Series1.abf
+data/raw/IV_NMDA/17.06.2022/PPF1+NBQXGroup1Series1.abf
+data/raw/IV_NMDA/17.06.2022/PPF2+NBQXGroup1Series1.abf
+data/raw/IV_NMDA/17.06.2022/PPF2Group1Series1.abf
+data/raw/IV_NMDA/17.06.2022/PPFGroup1Series1.abf
+data/raw/IV_NMDA/17.06.2022/Slow EPSC+0Group1Series1.abf
+data/raw/IV_NMDA/17.06.2022/Slow EPSC+20Group1Series1.abf
+data/raw/IV_NMDA/17.06.2022/Slow EPSC+60Group1Series1.abf
+data/raw/IV_NMDA/17.06.2022/Slow EPSC-20Group1Series1.abf
+data/raw/IV_NMDA/17.06.2022/Slow EPSC-40Group1Series1.abf
+data/raw/IV_NMDA/17.06.2022/Slow EPSC-60Group1Series1.abf
+data/raw/IV_NMDA/17.06.2022/Slow EPSC-70Group1Series1.abf
+data/raw/IV_NMDA/17.06.2022/Slow EPSC-80Group1Series1.abf
+data/raw/IV_NMDA/17.06.2022/Slow EPSC1+mem+0Group1Series1.abf
+data/raw/IV_NMDA/17.06.2022/Slow EPSC1+mem+20Group1Series1.abf
+data/raw/IV_NMDA/17.06.2022/Slow EPSC1+mem+60Group1Series1.abf
+data/raw/IV_NMDA/17.06.2022/Slow EPSC1+mem-20Group1Series1.abf
+data/raw/IV_NMDA/17.06.2022/Slow EPSC1+mem-40Group1Series1.abf
+data/raw/IV_NMDA/17.06.2022/Slow EPSC1+mem-60Group1Series1.abf
+data/raw/IV_NMDA/17.06.2022/Slow EPSC1+mem-70Group1Series1.abf
+data/raw/IV_NMDA/17.06.2022/Slow EPSC1+mem-80Group1Series1.abf
+data/raw/IV_NMDA/17.06.2022/Slow EPSC2+0Group1Series1.abf
+data/raw/IV_NMDA/17.06.2022/Slow EPSC2+20Group1Series1.abf
+data/raw/IV_NMDA/17.06.2022/Slow EPSC2+60Group1Series1.abf
+data/raw/IV_NMDA/17.06.2022/Slow EPSC2+mem+0Group1Series1.abf
+data/raw/IV_NMDA/17.06.2022/Slow EPSC2+mem+20Group1Series1.abf
+data/raw/IV_NMDA/17.06.2022/Slow EPSC2+mem+40Group1Series1.abf
+data/raw/IV_NMDA/17.06.2022/Slow EPSC2+mem+60Group1Series1.abf
+data/raw/IV_NMDA/17.06.2022/Slow EPSC2+mem-20Group1Series1.abf
+data/raw/IV_NMDA/17.06.2022/Slow EPSC2+mem-40Group1Series1.abf
+data/raw/IV_NMDA/17.06.2022/Slow EPSC2+mem-60Group1Series1.abf
+data/raw/IV_NMDA/17.06.2022/Slow EPSC2+mem-70Group1Series1.abf
+data/raw/IV_NMDA/17.06.2022/Slow EPSC2+mem-80Group1Series1.abf
+data/raw/IV_NMDA/17.06.2022/Slow EPSC2-20Group1Series1.abf
+data/raw/IV_NMDA/17.06.2022/Slow EPSC2-40Group1Series1.abf
+data/raw/IV_NMDA/17.06.2022/Slow EPSC2-60Group1Series1.abf
+data/raw/IV_NMDA/17.06.2022/Slow EPSC2-70Group1Series1.abf
+data/raw/IV_NMDA/17.06.2022/Slow EPSC2-80Group1Series1.abf
+data/raw/IV_NMDA/22.06.2022/PF1+0Group1Series1.abf
+data/raw/IV_NMDA/22.06.2022/PF1+20Group1Series1.abf
+data/raw/IV_NMDA/22.06.2022/PF1+40Group1Series1.abf
+data/raw/IV_NMDA/22.06.2022/PF1+60Group1Series1.abf
+data/raw/IV_NMDA/22.06.2022/PF1+mem+0Group1Series1.abf
+data/raw/IV_NMDA/22.06.2022/PF1+mem+20Group1Series1.abf
+data/raw/IV_NMDA/22.06.2022/PF1+mem+40Group1Series1.abf
+data/raw/IV_NMDA/22.06.2022/PF1+mem+60Group1Series1.abf
+data/raw/IV_NMDA/22.06.2022/PF1+mem-20Group1Series1.abf
+data/raw/IV_NMDA/22.06.2022/PF1+mem-40Group1Series1.abf
+data/raw/IV_NMDA/22.06.2022/PF1+mem-60Group1Series1.abf
+data/raw/IV_NMDA/22.06.2022/PF1+mem-70Group1Series1.abf
+data/raw/IV_NMDA/22.06.2022/PF1+mem-80Group1Series1.abf
+data/raw/IV_NMDA/22.06.2022/PF1-20Group1Series1.abf
+data/raw/IV_NMDA/22.06.2022/PF1-40Group1Series1.abf
+data/raw/IV_NMDA/22.06.2022/PF1-60Group1Series1.abf
+data/raw/IV_NMDA/22.06.2022/PF1-70Group1Series1.abf
+data/raw/IV_NMDA/22.06.2022/PF1-80Group1Series1.abf
+data/raw/IV_NMDA/22.06.2022/PF2+0Group1Series1.abf
+data/raw/IV_NMDA/22.06.2022/PF2+20Group1Series1.abf
+data/raw/IV_NMDA/22.06.2022/PF2+40Group1Series1.abf
+data/raw/IV_NMDA/22.06.2022/PF2+60Group1Series1.abf
+data/raw/IV_NMDA/22.06.2022/PF2+mem+20Group1Series1.abf
+data/raw/IV_NMDA/22.06.2022/PF2+mem+40Group1Series1.abf
+data/raw/IV_NMDA/22.06.2022/PF2+mem+60Group1Series1.abf
+data/raw/IV_NMDA/22.06.2022/PF2+mem-20Group1Series1.abf
+data/raw/IV_NMDA/22.06.2022/PF2+mem-40Group1Series1.abf
+data/raw/IV_NMDA/22.06.2022/PF2+mem-60Group1Series1.abf
+data/raw/IV_NMDA/22.06.2022/PF2+mem-70Group1Series1.abf
+data/raw/IV_NMDA/22.06.2022/PF2+mem-80Group1Series1.abf
+data/raw/IV_NMDA/22.06.2022/PF2-20Group1Series1.abf
+data/raw/IV_NMDA/22.06.2022/PF2-40Group1Series1.abf
+data/raw/IV_NMDA/22.06.2022/PF2-60Group1Series1.abf
+data/raw/IV_NMDA/22.06.2022/PF2-70Group1Series1.abf
+data/raw/IV_NMDA/22.06.2022/PF2-80Group1Series1.abf
+data/raw/IV_NMDA/22.06.2022/PPF1+NBQXGroup1Series1.abf
+data/raw/IV_NMDA/22.06.2022/PPF1Group1Series1.abf
+data/raw/IV_NMDA/22.06.2022/PPF2+memGroup1Series1.abf
+data/raw/IV_NMDA/22.06.2022/PPF2Group1Series1.abf
+data/raw/IV_NMDA/22.06.2022/SlowEPSC1+0Group1Series1.abf
+data/raw/IV_NMDA/22.06.2022/SlowEPSC1+20Group1Series1.abf
+data/raw/IV_NMDA/22.06.2022/SlowEPSC1+60Group1Series1.abf
+data/raw/IV_NMDA/22.06.2022/SlowEPSC1-20Group1Series1.abf
+data/raw/IV_NMDA/22.06.2022/SlowEPSC1-40Group1Series1.abf
+data/raw/IV_NMDA/22.06.2022/SlowEPSC1-60Group1Series1.abf
+data/raw/IV_NMDA/22.06.2022/SlowEPSC1-70Group1Series1.abf
+data/raw/IV_NMDA/22.06.2022/SlowEPSC1-80Group1Series1.abf
+data/raw/IV_NMDA/22.06.2022/SlowEPSC2+0Group1Series1.abf
+data/raw/IV_NMDA/22.06.2022/SlowEPSC2+20Group1Series1.abf
+data/raw/IV_NMDA/22.06.2022/SlowEPSC2+60Group1Series1.abf
+data/raw/IV_NMDA/22.06.2022/SlowEPSC2+mem+0Group1Series1.abf
+data/raw/IV_NMDA/22.06.2022/SlowEPSC2+mem+20Group1Series1.abf
+data/raw/IV_NMDA/22.06.2022/SlowEPSC2+mem+60Group1Series1.abf
+data/raw/IV_NMDA/22.06.2022/SlowEPSC2+mem-20Group1Series1.abf
+data/raw/IV_NMDA/22.06.2022/SlowEPSC2+mem-40Group1Series1.abf
+data/raw/IV_NMDA/22.06.2022/SlowEPSC2+mem-60Group1Series1.abf
+data/raw/IV_NMDA/22.06.2022/SlowEPSC2+mem-70Group1Series1.abf
+data/raw/IV_NMDA/22.06.2022/SlowEPSC2+mem-80Group1Series1.abf
+data/raw/IV_NMDA/22.06.2022/SlowEPSC2-20Group1Series1.abf
+data/raw/IV_NMDA/22.06.2022/SlowEPSC2-40Group1Series1.abf
+data/raw/IV_NMDA/22.06.2022/SlowEPSC2-60Group1Series1.abf
+data/raw/IV_NMDA/22.06.2022/SlowEPSC2-70Group1Series1.abf
+data/raw/IV_NMDA/22.06.2022/SlowEPSC2-80Group1Series1.abf
+data/raw/IV_NMDA/26.09.2022/Cell1/Capa1Group1Series1.abf
+data/raw/IV_NMDA/26.09.2022/Cell1/PPF+NBQX1Group1Series1.abf
+data/raw/IV_NMDA/26.09.2022/Cell1/Slow+mem/+20Group1Series1.abf
+data/raw/IV_NMDA/26.09.2022/Cell1/Slow+mem/+40Group1Series1.abf
+data/raw/IV_NMDA/26.09.2022/Cell1/Slow+mem/+60Group1Series1.abf
+data/raw/IV_NMDA/26.09.2022/Cell1/Slow+mem/-0Group1Series1.abf
+data/raw/IV_NMDA/26.09.2022/Cell1/Slow+mem/-20Group1Series1.abf
+data/raw/IV_NMDA/26.09.2022/Cell1/Slow+mem/-40Group1Series1.abf
+data/raw/IV_NMDA/26.09.2022/Cell1/Slow+mem/-60Group1Series1.abf
+data/raw/IV_NMDA/26.09.2022/Cell1/Slow+mem/-70Group1Series1.abf
+data/raw/IV_NMDA/26.09.2022/Cell1/Slow+mem/-80Group1Series1.abf
+data/raw/IV_NMDA/26.09.2022/Cell1/Slow/+20Group1Series1.abf
+data/raw/IV_NMDA/26.09.2022/Cell1/Slow/+40Group1Series1.abf
+data/raw/IV_NMDA/26.09.2022/Cell1/Slow/+60Group1Series1.abf
+data/raw/IV_NMDA/26.09.2022/Cell1/Slow/-0Group1Series1.abf
+data/raw/IV_NMDA/26.09.2022/Cell1/Slow/-20Group1Series1.abf
+data/raw/IV_NMDA/26.09.2022/Cell1/Slow/-40Group1Series1.abf
+data/raw/IV_NMDA/26.09.2022/Cell1/Slow/-60Group1Series1.abf
+data/raw/IV_NMDA/26.09.2022/Cell1/Slow/-70Group1Series1.abf
+data/raw/IV_NMDA/26.09.2022/Cell1/Slow/-80Group1Series1.abf
+data/raw/IV_NMDA/26.09.2022/Cell2/Capa2-1Group1Series1.abf
+data/raw/IV_NMDA/26.09.2022/Cell2/Capa2Group1Series1.abf
+data/raw/IV_NMDA/26.09.2022/Cell2/PF+mem/+0Group1Series1.abf
+data/raw/IV_NMDA/26.09.2022/Cell2/PF+mem/+20Group1Series1.abf
+data/raw/IV_NMDA/26.09.2022/Cell2/PF+mem/+40Group1Series1.abf
+data/raw/IV_NMDA/26.09.2022/Cell2/PF+mem/+60Group1Series1.abf
+data/raw/IV_NMDA/26.09.2022/Cell2/PF+mem/-20Group1Series1.abf
+data/raw/IV_NMDA/26.09.2022/Cell2/PF+mem/-40Group1Series1.abf
+data/raw/IV_NMDA/26.09.2022/Cell2/PF+mem/-60Group1Series1.abf
+data/raw/IV_NMDA/26.09.2022/Cell2/PF+mem/-70Group1Series1.abf
+data/raw/IV_NMDA/26.09.2022/Cell2/PF+mem/-80Group1Series1.abf
+data/raw/IV_NMDA/26.09.2022/Cell2/PF/+20Group1Series1.abf
+data/raw/IV_NMDA/26.09.2022/Cell2/PF/+40Group1Series1.abf
+data/raw/IV_NMDA/26.09.2022/Cell2/PF/+60Group1Series1.abf
+data/raw/IV_NMDA/26.09.2022/Cell2/PF/-0Group1Series1.abf
+data/raw/IV_NMDA/26.09.2022/Cell2/PF/-20Group1Series1.abf
+data/raw/IV_NMDA/26.09.2022/Cell2/PF/-40Group1Series1.abf
+data/raw/IV_NMDA/26.09.2022/Cell2/PF/-60Group1Series1.abf
+data/raw/IV_NMDA/26.09.2022/Cell2/PF/-70Group1Series1.abf
+data/raw/IV_NMDA/26.09.2022/Cell2/PF/-80Group1Series1.abf
+data/raw/IV_NMDA/26.09.2022/Cell2/Slow+mem/+0Group1Series1.abf
+data/raw/IV_NMDA/26.09.2022/Cell2/Slow+mem/+20Group1Series1.abf
+data/raw/IV_NMDA/26.09.2022/Cell2/Slow+mem/+40Group1Series1.abf
+data/raw/IV_NMDA/26.09.2022/Cell2/Slow+mem/+60Group1Series1.abf
+data/raw/IV_NMDA/26.09.2022/Cell2/Slow+mem/-20Group1Series1.abf
+data/raw/IV_NMDA/26.09.2022/Cell2/Slow+mem/-40Group1Series1.abf
+data/raw/IV_NMDA/26.09.2022/Cell2/Slow+mem/-60Group1Series1.abf
+data/raw/IV_NMDA/26.09.2022/Cell2/Slow+mem/-70Group1Series1.abf
+data/raw/IV_NMDA/26.09.2022/Cell2/Slow+mem/-80Group1Series1.abf
+data/raw/IV_NMDA/26.09.2022/Cell2/Slow/+20Group1Series1.abf
+data/raw/IV_NMDA/26.09.2022/Cell2/Slow/+40Group1Series1.abf
+data/raw/IV_NMDA/26.09.2022/Cell2/Slow/+60Group1Series1.abf
+data/raw/IV_NMDA/26.09.2022/Cell2/Slow/-0Group1Series1.abf
+data/raw/IV_NMDA/26.09.2022/Cell2/Slow/-20Group1Series1.abf
+data/raw/IV_NMDA/26.09.2022/Cell2/Slow/-40Group1Series1.abf
+data/raw/IV_NMDA/26.09.2022/Cell2/Slow/-60Group1Series1.abf
+data/raw/IV_NMDA/26.09.2022/Cell2/Slow/-70Group1Series1.abf
+data/raw/IV_NMDA/26.09.2022/Cell2/Slow/-80Group1Series1.abf
+data/raw/IV_NMDA/29.06.2022/PF+0Group1Series1.abf
+data/raw/IV_NMDA/29.06.2022/PF+20Group1Series1.abf
+data/raw/IV_NMDA/29.06.2022/PF+40Group1Series1.abf
+data/raw/IV_NMDA/29.06.2022/PF+60Group1Series1.abf
+data/raw/IV_NMDA/29.06.2022/PF+mem+0Group1Series1.abf
+data/raw/IV_NMDA/29.06.2022/PF+mem+20Group1Series1.abf
+data/raw/IV_NMDA/29.06.2022/PF+mem+40Group1Series1.abf
+data/raw/IV_NMDA/29.06.2022/PF+mem+60Group1Series1.abf
+data/raw/IV_NMDA/29.06.2022/PF+mem-20Group1Series1.abf
+data/raw/IV_NMDA/29.06.2022/PF+mem-40Group1Series1.abf
+data/raw/IV_NMDA/29.06.2022/PF+mem-60Group1Series1.abf
+data/raw/IV_NMDA/29.06.2022/PF+mem-70Group1Series1.abf
+data/raw/IV_NMDA/29.06.2022/PF+mem-80Group1Series1.abf
+data/raw/IV_NMDA/29.06.2022/PF-20Group1Series1.abf
+data/raw/IV_NMDA/29.06.2022/PF-40Group1Series1.abf
+data/raw/IV_NMDA/29.06.2022/PF-60Group1Series1.abf
+data/raw/IV_NMDA/29.06.2022/PF-70Group1Series1.abf
+data/raw/IV_NMDA/29.06.2022/PF-80Group1Series1.abf
+data/raw/IV_NMDA/29.06.2022/PPFGroup1Series1.abf
+data/raw/IV_NMDA/29.06.2022/SlowEPSC+0Group1Series1.abf
+data/raw/IV_NMDA/29.06.2022/SlowEPSC+20Group1Series1.abf
+data/raw/IV_NMDA/29.06.2022/SlowEPSC+60Group1Series1.abf
+data/raw/IV_NMDA/29.06.2022/SlowEPSC+mem+0Group1Series1.abf
+data/raw/IV_NMDA/29.06.2022/SlowEPSC+mem+20Group1Series1.abf
+data/raw/IV_NMDA/29.06.2022/SlowEPSC+mem+60Group1Series1.abf
+data/raw/IV_NMDA/29.06.2022/SlowEPSC+mem-20Group1Series1.abf
+data/raw/IV_NMDA/29.06.2022/SlowEPSC+mem-40Group1Series1.abf
+data/raw/IV_NMDA/29.06.2022/SlowEPSC+mem-60Group1Series1.abf
+data/raw/IV_NMDA/29.06.2022/SlowEPSC+mem-70Group1Series1.abf
+data/raw/IV_NMDA/29.06.2022/SlowEPSC+mem-80Group1Series1.abf
+data/raw/IV_NMDA/29.06.2022/SlowEPSC-20Group1Series1.abf
+data/raw/IV_NMDA/29.06.2022/SlowEPSC-40Group1Series1.abf
+data/raw/IV_NMDA/29.06.2022/SlowEPSC-60Group1Series1.abf
+data/raw/IV_NMDA/29.06.2022/SlowEPSC-70Group1Series1.abf
+data/raw/IV_NMDA/29.06.2022/SlowEPSC-80Group1Series1.abf
+data/raw/IV_NMDA/Ro25/12.10.2022/CapaGroup1Series1.abf
+data/raw/IV_NMDA/Ro25/12.10.2022/PF_IV+NBQX+Ro25/PF_IV+NBQX+Ro25+0Group1Series1.abf
+data/raw/IV_NMDA/Ro25/12.10.2022/PF_IV+NBQX+Ro25/PF_IV+NBQX+Ro25+20Group1Series1.abf
+data/raw/IV_NMDA/Ro25/12.10.2022/PF_IV+NBQX+Ro25/PF_IV+NBQX+Ro25+40Group1Series1.abf
+data/raw/IV_NMDA/Ro25/12.10.2022/PF_IV+NBQX+Ro25/PF_IV+NBQX+Ro25+60Group1Series1.abf
+data/raw/IV_NMDA/Ro25/12.10.2022/PF_IV+NBQX+Ro25/PF_IV+NBQX+Ro25-20Group1Series1.abf
+data/raw/IV_NMDA/Ro25/12.10.2022/PF_IV+NBQX+Ro25/PF_IV+NBQX+Ro25-40Group1Series1.abf
+data/raw/IV_NMDA/Ro25/12.10.2022/PF_IV+NBQX+Ro25/PF_IV+NBQX+Ro25-60Group1Series1.abf
+data/raw/IV_NMDA/Ro25/12.10.2022/PF_IV+NBQX+Ro25/PF_IV+NBQX+Ro25-70Group1Series1.abf
+data/raw/IV_NMDA/Ro25/12.10.2022/PF_IV+NBQX+Ro25/PF_IV+NBQX+Ro25-80Group1Series1.abf
+data/raw/IV_NMDA/Ro25/12.10.2022/PF_IV+NBQX/PF_IV+NBQX+0Group1Series1.abf
+data/raw/IV_NMDA/Ro25/12.10.2022/PF_IV+NBQX/PF_IV+NBQX+20Group1Series1.abf
+data/raw/IV_NMDA/Ro25/12.10.2022/PF_IV+NBQX/PF_IV+NBQX+40Group1Series1.abf
+data/raw/IV_NMDA/Ro25/12.10.2022/PF_IV+NBQX/PF_IV+NBQX+60Group1Series1.abf
+data/raw/IV_NMDA/Ro25/12.10.2022/PF_IV+NBQX/PF_IV+NBQX-20Group1Series1.abf
+data/raw/IV_NMDA/Ro25/12.10.2022/PF_IV+NBQX/PF_IV+NBQX-40Group1Series1.abf
+data/raw/IV_NMDA/Ro25/12.10.2022/PF_IV+NBQX/PF_IV+NBQX-60Group1Series1.abf
+data/raw/IV_NMDA/Ro25/12.10.2022/PF_IV+NBQX/PF_IV+NBQX-70Group1Series1.abf
+data/raw/IV_NMDA/Ro25/12.10.2022/PF_IV+NBQX/PF_IV+NBQX-80Group1Series1.abf
+data/raw/IV_NMDA/Ro25/12.10.2022/Slow EPSC_IV+NBQX+Ro25/Slow EPSC_IV+NBQX+Ro25+0Group1Series1.abf
+data/raw/IV_NMDA/Ro25/12.10.2022/Slow EPSC_IV+NBQX+Ro25/Slow EPSC_IV+NBQX+Ro25+20Group1Series1.abf
+data/raw/IV_NMDA/Ro25/12.10.2022/Slow EPSC_IV+NBQX+Ro25/Slow EPSC_IV+NBQX+Ro25+40Group1Series1.abf
+data/raw/IV_NMDA/Ro25/12.10.2022/Slow EPSC_IV+NBQX+Ro25/Slow EPSC_IV+NBQX+Ro25+60Group1Series1.abf
+data/raw/IV_NMDA/Ro25/12.10.2022/Slow EPSC_IV+NBQX+Ro25/Slow EPSC_IV+NBQX+Ro25-20Group1Series1.abf
+data/raw/IV_NMDA/Ro25/12.10.2022/Slow EPSC_IV+NBQX+Ro25/Slow EPSC_IV+NBQX+Ro25-40Group1Series1.abf
+data/raw/IV_NMDA/Ro25/12.10.2022/Slow EPSC_IV+NBQX+Ro25/Slow EPSC_IV+NBQX+Ro25-60Group1Series1.abf
+data/raw/IV_NMDA/Ro25/12.10.2022/Slow EPSC_IV+NBQX+Ro25/Slow EPSC_IV+NBQX+Ro25-70Group1Series1.abf
+data/raw/IV_NMDA/Ro25/12.10.2022/Slow EPSC_IV+NBQX+Ro25/Slow EPSC_IV+NBQX+Ro25-80Group1Series1.abf
+data/raw/IV_NMDA/Ro25/12.10.2022/Slow EPSC_IV+NBQX+Ro25/Ещё-1/Slow EPSC_IV+NBQX+Ro25+0Group1Series1.abf
+data/raw/IV_NMDA/Ro25/12.10.2022/Slow EPSC_IV+NBQX+Ro25/Ещё-1/Slow EPSC_IV+NBQX+Ro25+20Group1Series1.abf
+data/raw/IV_NMDA/Ro25/12.10.2022/Slow EPSC_IV+NBQX+Ro25/Ещё-1/Slow EPSC_IV+NBQX+Ro25+40Group1Series1.abf
+data/raw/IV_NMDA/Ro25/12.10.2022/Slow EPSC_IV+NBQX+Ro25/Ещё-1/Slow EPSC_IV+NBQX+Ro25+60Group1Series1.abf
+data/raw/IV_NMDA/Ro25/12.10.2022/Slow EPSC_IV+NBQX+Ro25/Ещё-1/Slow EPSC_IV+NBQX+Ro25-20Group1Series1.abf
+data/raw/IV_NMDA/Ro25/12.10.2022/Slow EPSC_IV+NBQX+Ro25/Ещё-1/Slow EPSC_IV+NBQX+Ro25-40Group1Series1.abf
+data/raw/IV_NMDA/Ro25/12.10.2022/Slow EPSC_IV+NBQX+Ro25/Ещё-1/Slow EPSC_IV+NBQX+Ro25-60Group1Series1.abf
+data/raw/IV_NMDA/Ro25/12.10.2022/Slow EPSC_IV+NBQX+Ro25/Ещё-1/Slow EPSC_IV+NBQX+Ro25-70Group1Series1.abf
+data/raw/IV_NMDA/Ro25/12.10.2022/Slow EPSC_IV+NBQX+Ro25/Ещё-1/Slow EPSC_IV+NBQX+Ro25-80Group1Series1.abf
+data/raw/IV_NMDA/Ro25/12.10.2022/Slow EPSC_IV+NBQX+Ro25/Ещё/Slow EPSC_IV+NBQX+Ro25+0Group1Series1.abf
+data/raw/IV_NMDA/Ro25/12.10.2022/Slow EPSC_IV+NBQX+Ro25/Ещё/Slow EPSC_IV+NBQX+Ro25+20Group1Series1.abf
+data/raw/IV_NMDA/Ro25/12.10.2022/Slow EPSC_IV+NBQX+Ro25/Ещё/Slow EPSC_IV+NBQX+Ro25+40Group1Series1.abf
+data/raw/IV_NMDA/Ro25/12.10.2022/Slow EPSC_IV+NBQX+Ro25/Ещё/Slow EPSC_IV+NBQX+Ro25+60Group1Series1.abf
+data/raw/IV_NMDA/Ro25/12.10.2022/Slow EPSC_IV+NBQX+Ro25/Ещё/Slow EPSC_IV+NBQX+Ro25-20Group1Series1.abf
+data/raw/IV_NMDA/Ro25/12.10.2022/Slow EPSC_IV+NBQX+Ro25/Ещё/Slow EPSC_IV+NBQX+Ro25-40Group1Series1.abf
+data/raw/IV_NMDA/Ro25/12.10.2022/Slow EPSC_IV+NBQX+Ro25/Ещё/Slow EPSC_IV+NBQX+Ro25-60Group1Series1.abf
+data/raw/IV_NMDA/Ro25/12.10.2022/Slow EPSC_IV+NBQX+Ro25/Ещё/Slow EPSC_IV+NBQX+Ro25-70Group1Series1.abf
+data/raw/IV_NMDA/Ro25/12.10.2022/Slow EPSC_IV+NBQX+Ro25/Ещё/Slow EPSC_IV+NBQX+Ro25-80Group1Series1.abf
+data/raw/IV_NMDA/Ro25/12.10.2022/Slow EPSC_IV+NBQX/Slow EPSC_IV+NBQX+0Group1Series1.abf
+data/raw/IV_NMDA/Ro25/12.10.2022/Slow EPSC_IV+NBQX/Slow EPSC_IV+NBQX+20Group1Series1.abf
+data/raw/IV_NMDA/Ro25/12.10.2022/Slow EPSC_IV+NBQX/Slow EPSC_IV+NBQX+40Group1Series1.abf
+data/raw/IV_NMDA/Ro25/12.10.2022/Slow EPSC_IV+NBQX/Slow EPSC_IV+NBQX+60Group1Series1.abf
+data/raw/IV_NMDA/Ro25/12.10.2022/Slow EPSC_IV+NBQX/Slow EPSC_IV+NBQX-20Group1Series1.abf
+data/raw/IV_NMDA/Ro25/12.10.2022/Slow EPSC_IV+NBQX/Slow EPSC_IV+NBQX-40Group1Series1.abf
+data/raw/IV_NMDA/Ro25/12.10.2022/Slow EPSC_IV+NBQX/Slow EPSC_IV+NBQX-60Group1Series1.abf
+data/raw/IV_NMDA/Ro25/12.10.2022/Slow EPSC_IV+NBQX/Slow EPSC_IV+NBQX-70Group1Series1.abf
+data/raw/IV_NMDA/Ro25/12.10.2022/Slow EPSC_IV+NBQX/Slow EPSC_IV+NBQX-80Group1Series1.abf
+data/raw/IV_NMDA/Ro25/17.10.2022/Cell1/Capa1Group1Series1.abf
+data/raw/IV_NMDA/Ro25/17.10.2022/Cell1/PF_IV+NBQX+Ro25/+0Group1Series1.abf
+data/raw/IV_NMDA/Ro25/17.10.2022/Cell1/PF_IV+NBQX+Ro25/+20Group1Series1.abf
+data/raw/IV_NMDA/Ro25/17.10.2022/Cell1/PF_IV+NBQX+Ro25/+40Group1Series1.abf
+data/raw/IV_NMDA/Ro25/17.10.2022/Cell1/PF_IV+NBQX+Ro25/+60Group1Series1.abf
+data/raw/IV_NMDA/Ro25/17.10.2022/Cell1/PF_IV+NBQX+Ro25/-20Group1Series1.abf
+data/raw/IV_NMDA/Ro25/17.10.2022/Cell1/PF_IV+NBQX+Ro25/-40Group1Series1.abf
+data/raw/IV_NMDA/Ro25/17.10.2022/Cell1/PF_IV+NBQX+Ro25/-60Group1Series1.abf
+data/raw/IV_NMDA/Ro25/17.10.2022/Cell1/PF_IV+NBQX+Ro25/-70Group1Series1.abf
+data/raw/IV_NMDA/Ro25/17.10.2022/Cell1/PF_IV+NBQX+Ro25/-80Group1Series1.abf
+data/raw/IV_NMDA/Ro25/17.10.2022/Cell1/PF_IV+NBQX/+0Group1Series1.abf
+data/raw/IV_NMDA/Ro25/17.10.2022/Cell1/PF_IV+NBQX/+20Group1Series1.abf
+data/raw/IV_NMDA/Ro25/17.10.2022/Cell1/PF_IV+NBQX/+40Group1Series1.abf
+data/raw/IV_NMDA/Ro25/17.10.2022/Cell1/PF_IV+NBQX/+60Group1Series1.abf
+data/raw/IV_NMDA/Ro25/17.10.2022/Cell1/PF_IV+NBQX/-20Group1Series1.abf
+data/raw/IV_NMDA/Ro25/17.10.2022/Cell1/PF_IV+NBQX/-40Group1Series1.abf
+data/raw/IV_NMDA/Ro25/17.10.2022/Cell1/PF_IV+NBQX/-60Group1Series1.abf
+data/raw/IV_NMDA/Ro25/17.10.2022/Cell1/PF_IV+NBQX/-70Group1Series1.abf
+data/raw/IV_NMDA/Ro25/17.10.2022/Cell1/PF_IV+NBQX/-80Group1Series1.abf
+data/raw/IV_NMDA/Ro25/17.10.2022/Cell1/PPF+NBQX+Ro25Group1Series1.abf
+data/raw/IV_NMDA/Ro25/17.10.2022/Cell1/PPF+NBQXGroup1Series1.abf
+data/raw/IV_NMDA/Ro25/17.10.2022/Cell1/PPFGroup1Series1.abf
+data/raw/IV_NMDA/Ro25/17.10.2022/Cell1/SlowEPSC_IV+NBQX+Ro25/+0Group1Series1.abf
+data/raw/IV_NMDA/Ro25/17.10.2022/Cell1/SlowEPSC_IV+NBQX+Ro25/+20Group1Series1.abf
+data/raw/IV_NMDA/Ro25/17.10.2022/Cell1/SlowEPSC_IV+NBQX+Ro25/+40Group1Series1.abf
+data/raw/IV_NMDA/Ro25/17.10.2022/Cell1/SlowEPSC_IV+NBQX+Ro25/+60Group1Series1.abf
+data/raw/IV_NMDA/Ro25/17.10.2022/Cell1/SlowEPSC_IV+NBQX+Ro25/-20Group1Series1.abf
+data/raw/IV_NMDA/Ro25/17.10.2022/Cell1/SlowEPSC_IV+NBQX+Ro25/-40Group1Series1.abf
+data/raw/IV_NMDA/Ro25/17.10.2022/Cell1/SlowEPSC_IV+NBQX+Ro25/-60Group1Series1.abf
+data/raw/IV_NMDA/Ro25/17.10.2022/Cell1/SlowEPSC_IV+NBQX+Ro25/-70Group1Series1.abf
+data/raw/IV_NMDA/Ro25/17.10.2022/Cell1/SlowEPSC_IV+NBQX+Ro25/-80Group1Series1.abf
+data/raw/IV_NMDA/Ro25/17.10.2022/Cell1/SlowEPSC_IV+NBQX/+0Group1Series1.abf
+data/raw/IV_NMDA/Ro25/17.10.2022/Cell1/SlowEPSC_IV+NBQX/+20Group1Series1.abf
+data/raw/IV_NMDA/Ro25/17.10.2022/Cell1/SlowEPSC_IV+NBQX/+40Group1Series1.abf
+data/raw/IV_NMDA/Ro25/17.10.2022/Cell1/SlowEPSC_IV+NBQX/+60Group1Series1.abf
+data/raw/IV_NMDA/Ro25/17.10.2022/Cell1/SlowEPSC_IV+NBQX/-20Group1Series1.abf
+data/raw/IV_NMDA/Ro25/17.10.2022/Cell1/SlowEPSC_IV+NBQX/-40Group1Series1.abf
+data/raw/IV_NMDA/Ro25/17.10.2022/Cell1/SlowEPSC_IV+NBQX/-60Group1Series1.abf
+data/raw/IV_NMDA/Ro25/17.10.2022/Cell1/SlowEPSC_IV+NBQX/-70Group1Series1.abf
+data/raw/IV_NMDA/Ro25/17.10.2022/Cell1/SlowEPSC_IV+NBQX/-80Group1Series1.abf
+data/raw/IV_NMDA/Ro25/17.10.2022/Cell2/Capa2Group1Series1.abf
+data/raw/IV_NMDA/Ro25/17.10.2022/Cell2/PF_IV+NBQX+Ro25/+0Group1Series1.abf
+data/raw/IV_NMDA/Ro25/17.10.2022/Cell2/PF_IV+NBQX+Ro25/+20Group1Series1.abf
+data/raw/IV_NMDA/Ro25/17.10.2022/Cell2/PF_IV+NBQX+Ro25/+40Group1Series1.abf
+data/raw/IV_NMDA/Ro25/17.10.2022/Cell2/PF_IV+NBQX+Ro25/+60Group1Series1.abf
+data/raw/IV_NMDA/Ro25/17.10.2022/Cell2/PF_IV+NBQX+Ro25/-20Group1Series1.abf
+data/raw/IV_NMDA/Ro25/17.10.2022/Cell2/PF_IV+NBQX+Ro25/-40Group1Series1.abf
+data/raw/IV_NMDA/Ro25/17.10.2022/Cell2/PF_IV+NBQX+Ro25/-60Group1Series1.abf
+data/raw/IV_NMDA/Ro25/17.10.2022/Cell2/PF_IV+NBQX+Ro25/-70Group1Series1.abf
+data/raw/IV_NMDA/Ro25/17.10.2022/Cell2/PF_IV+NBQX+Ro25/-80Group1Series1.abf
+data/raw/IV_NMDA/Ro25/17.10.2022/Cell2/PF_IV+NBQX/+0Group1Series1.abf
+data/raw/IV_NMDA/Ro25/17.10.2022/Cell2/PF_IV+NBQX/+20Group1Series1.abf
+data/raw/IV_NMDA/Ro25/17.10.2022/Cell2/PF_IV+NBQX/+40Group1Series1.abf
+data/raw/IV_NMDA/Ro25/17.10.2022/Cell2/PF_IV+NBQX/+60Group1Series1.abf
+data/raw/IV_NMDA/Ro25/17.10.2022/Cell2/PF_IV+NBQX/-20Group1Series1.abf
+data/raw/IV_NMDA/Ro25/17.10.2022/Cell2/PF_IV+NBQX/-40Group1Series1.abf
+data/raw/IV_NMDA/Ro25/17.10.2022/Cell2/PF_IV+NBQX/-60Group1Series1.abf
+data/raw/IV_NMDA/Ro25/17.10.2022/Cell2/PF_IV+NBQX/-70Group1Series1.abf
+data/raw/IV_NMDA/Ro25/17.10.2022/Cell2/PF_IV+NBQX/-80Group1Series1.abf
+data/raw/IV_NMDA/Ro25/17.10.2022/Cell2/PPF+NBQX+Ro25Group1Series1.abf
+data/raw/IV_NMDA/Ro25/17.10.2022/Cell2/PPF+NBQXGroup1Series1.abf
+data/raw/IV_NMDA/Ro25/17.10.2022/Cell2/PPFGroup1Series1.abf
+data/raw/IV_NMDA/Ro25/17.10.2022/Cell2/SlowEPSC+NBQX+Ro25Group1Series1.abf
+data/raw/IV_NMDA/Ro25/17.10.2022/Cell2/SlowEPSC_IV+NBQX+Ro25/+0Group1Series1.abf
+data/raw/IV_NMDA/Ro25/17.10.2022/Cell2/SlowEPSC_IV+NBQX+Ro25/+20Group1Series1.abf
+data/raw/IV_NMDA/Ro25/17.10.2022/Cell2/SlowEPSC_IV+NBQX+Ro25/+40Group1Series1.abf
+data/raw/IV_NMDA/Ro25/17.10.2022/Cell2/SlowEPSC_IV+NBQX+Ro25/+60Group1Series1.abf
+data/raw/IV_NMDA/Ro25/17.10.2022/Cell2/SlowEPSC_IV+NBQX+Ro25/-20Group1Series1.abf
+data/raw/IV_NMDA/Ro25/17.10.2022/Cell2/SlowEPSC_IV+NBQX+Ro25/-40Group1Series1.abf
+data/raw/IV_NMDA/Ro25/17.10.2022/Cell2/SlowEPSC_IV+NBQX+Ro25/-60Group1Series1.abf
+data/raw/IV_NMDA/Ro25/17.10.2022/Cell2/SlowEPSC_IV+NBQX+Ro25/-70Group1Series1.abf
+data/raw/IV_NMDA/Ro25/17.10.2022/Cell2/SlowEPSC_IV+NBQX+Ro25/-80Group1Series1.abf
+data/raw/IV_NMDA/Ro25/17.10.2022/Cell2/SlowEPSC_IV+NBQX+Ro25/Ещё/+0Group1Series1.abf
+data/raw/IV_NMDA/Ro25/17.10.2022/Cell2/SlowEPSC_IV+NBQX+Ro25/Ещё/+20Group1Series1.abf
+data/raw/IV_NMDA/Ro25/17.10.2022/Cell2/SlowEPSC_IV+NBQX+Ro25/Ещё/+40Group1Series1.abf
+data/raw/IV_NMDA/Ro25/17.10.2022/Cell2/SlowEPSC_IV+NBQX+Ro25/Ещё/+60Group1Series1.abf
+data/raw/IV_NMDA/Ro25/17.10.2022/Cell2/SlowEPSC_IV+NBQX+Ro25/Ещё/-20Group1Series1.abf
+data/raw/IV_NMDA/Ro25/17.10.2022/Cell2/SlowEPSC_IV+NBQX+Ro25/Ещё/-40Group1Series1.abf
+data/raw/IV_NMDA/Ro25/17.10.2022/Cell2/SlowEPSC_IV+NBQX+Ro25/Ещё/-60Group1Series1.abf
+data/raw/IV_NMDA/Ro25/17.10.2022/Cell2/SlowEPSC_IV+NBQX+Ro25/Ещё/-70Group1Series1.abf
+data/raw/IV_NMDA/Ro25/17.10.2022/Cell2/SlowEPSC_IV+NBQX+Ro25/Ещё/-80Group1Series1.abf
+data/raw/IV_NMDA/Ro25/17.10.2022/Cell2/SlowEPSC_IV+NBQX/+0Group1Series1.abf
+data/raw/IV_NMDA/Ro25/17.10.2022/Cell2/SlowEPSC_IV+NBQX/+20Group1Series1.abf
+data/raw/IV_NMDA/Ro25/17.10.2022/Cell2/SlowEPSC_IV+NBQX/+40Group1Series1.abf
+data/raw/IV_NMDA/Ro25/17.10.2022/Cell2/SlowEPSC_IV+NBQX/+60Group1Series1.abf
+data/raw/IV_NMDA/Ro25/17.10.2022/Cell2/SlowEPSC_IV+NBQX/-20Group1Series1.abf
+data/raw/IV_NMDA/Ro25/17.10.2022/Cell2/SlowEPSC_IV+NBQX/-40Group1Series1.abf
+data/raw/IV_NMDA/Ro25/17.10.2022/Cell2/SlowEPSC_IV+NBQX/-60Group1Series1.abf
+data/raw/IV_NMDA/Ro25/17.10.2022/Cell2/SlowEPSC_IV+NBQX/-70Group1Series1.abf
+data/raw/IV_NMDA/Ro25/17.10.2022/Cell2/SlowEPSC_IV+NBQX/-80Group1Series1.abf
+data/raw/IV_NMDA/Мемантин 9 недель/IV/23.12.2021/Capa 1Group1Series1.abf
+data/raw/IV_NMDA/Мемантин 9 недель/IV/23.12.2021/Capa 1_2Group1Series1.abf
+data/raw/IV_NMDA/Мемантин 9 недель/IV/23.12.2021/Capa 2Group1Series1.abf
+data/raw/IV_NMDA/Мемантин 9 недель/IV/23.12.2021/Capa 3Group1Series1.abf
+data/raw/IV_NMDA/Мемантин 9 недель/IV/23.12.2021/PF-EPSC +20 1Group1Series1.abf
+data/raw/IV_NMDA/Мемантин 9 недель/IV/23.12.2021/PF-EPSC +40 1Group1Series1.abf
+data/raw/IV_NMDA/Мемантин 9 недель/IV/23.12.2021/PF-EPSC +60 1Group1Series1.abf
+data/raw/IV_NMDA/Мемантин 9 недель/IV/23.12.2021/PF-EPSC -20 1Group1Series1.abf
+data/raw/IV_NMDA/Мемантин 9 недель/IV/23.12.2021/PF-EPSC -40 1Group1Series1.abf
+data/raw/IV_NMDA/Мемантин 9 недель/IV/23.12.2021/PF-EPSC -60 1Group1Series1.abf
+data/raw/IV_NMDA/Мемантин 9 недель/IV/23.12.2021/PF-EPSC -70 1Group1Series1.abf
+data/raw/IV_NMDA/Мемантин 9 недель/IV/23.12.2021/PF-EPSC -80 1Group1Series1.abf
+data/raw/IV_NMDA/Мемантин 9 недель/IV/23.12.2021/PF-EPSC 0 1Group1Series1.abf
+data/raw/IV_NMDA/Мемантин 9 недель/IV/23.12.2021/PPF + NBQX 3Group1Series1.abf
+data/raw/IV_NMDA/Мемантин 9 недель/IV/23.12.2021/PPF +20 3Group1Series1.abf
+data/raw/IV_NMDA/Мемантин 9 недель/IV/23.12.2021/PPF +40 3Group1Series1.abf
+data/raw/IV_NMDA/Мемантин 9 недель/IV/23.12.2021/PPF +60 3Group1Series1.abf
+data/raw/IV_NMDA/Мемантин 9 недель/IV/23.12.2021/PPF +NBQX 1Group1Series1.abf
+data/raw/IV_NMDA/Мемантин 9 недель/IV/23.12.2021/PPF +NBQX 2Group1Series1.abf
+data/raw/IV_NMDA/Мемантин 9 недель/IV/23.12.2021/PPF -00 3Group1Series1.abf
+data/raw/IV_NMDA/Мемантин 9 недель/IV/23.12.2021/PPF -20 3Group1Series1.abf
+data/raw/IV_NMDA/Мемантин 9 недель/IV/23.12.2021/PPF -40 3Group1Series1.abf
+data/raw/IV_NMDA/Мемантин 9 недель/IV/23.12.2021/PPF -60 3Group1Series1.abf
+data/raw/IV_NMDA/Мемантин 9 недель/IV/23.12.2021/PPF -70 3Group1Series1.abf
+data/raw/IV_NMDA/Мемантин 9 недель/IV/23.12.2021/PPF -80 3Group1Series1.abf
+data/raw/IV_NMDA/Мемантин 9 недель/IV/23.12.2021/PPF 1Group1Series1.abf
+data/raw/IV_NMDA/Мемантин 9 недель/IV/23.12.2021/PPF 2Group1Series1.abf
+data/raw/IV_NMDA/Мемантин 9 недель/IV/23.12.2021/PPF 3Group1Series1.abf
+data/raw/IV_NMDA/Мемантин 9 недель/IV/23.12.2021/slowEPSC +20 1Group1Series1.abf
+data/raw/IV_NMDA/Мемантин 9 недель/IV/23.12.2021/slowEPSC +20 3Group1Series1.abf
+data/raw/IV_NMDA/Мемантин 9 недель/IV/23.12.2021/slowEPSC +60 1Group1Series1.abf
+data/raw/IV_NMDA/Мемантин 9 недель/IV/23.12.2021/slowEPSC +60 3Group1Series1.abf
+data/raw/IV_NMDA/Мемантин 9 недель/IV/23.12.2021/slowEPSC +NBQX 2Group1Series1.abf
+data/raw/IV_NMDA/Мемантин 9 недель/IV/23.12.2021/slowEPSC -20 1Group1Series1.abf
+data/raw/IV_NMDA/Мемантин 9 недель/IV/23.12.2021/slowEPSC -20 3Group1Series1.abf
+data/raw/IV_NMDA/Мемантин 9 недель/IV/23.12.2021/slowEPSC -40 1Group1Series1.abf
+data/raw/IV_NMDA/Мемантин 9 недель/IV/23.12.2021/slowEPSC -40 3Group1Series1.abf
+data/raw/IV_NMDA/Мемантин 9 недель/IV/23.12.2021/slowEPSC -60 1Group1Series1.abf
+data/raw/IV_NMDA/Мемантин 9 недель/IV/23.12.2021/slowEPSC -60 3Group1Series1.abf
+data/raw/IV_NMDA/Мемантин 9 недель/IV/23.12.2021/slowEPSC -60 3_2Group1Series1.abf
+data/raw/IV_NMDA/Мемантин 9 недель/IV/23.12.2021/slowEPSC -70 1Group1Series1.abf
+data/raw/IV_NMDA/Мемантин 9 недель/IV/23.12.2021/slowEPSC -70 3Group1Series1.abf
+data/raw/IV_NMDA/Мемантин 9 недель/IV/23.12.2021/slowEPSC -80 1Group1Series1.abf
+data/raw/IV_NMDA/Мемантин 9 недель/IV/23.12.2021/slowEPSC -80 3Group1Series1.abf
+data/raw/IV_NMDA/Мемантин 9 недель/IV/23.12.2021/slowEPSC 0 1Group1Series1.abf
+data/raw/IV_NMDA/Мемантин 9 недель/IV/23.12.2021/slowEPSC 0 3Group1Series1.abf
+data/raw/IV_NMDA/Мемантин 9 недель/IV/23.12.2021/slowEPSC 1Group1Series1.abf
+data/raw/IV_NMDA/Мемантин 9 недель/IV/23.12.2021/slowEPSC 2Group1Series1.abf
+data/raw/IV_NMDA/Мемантин 9 недель/IV/23.12.2021/slowEPSC 3_2Group1Series1.abf
+data/raw/IV_NMDA/Мемантин 9 недель/IV/24.12.2021/Capa1Group1Series1.abf
+data/raw/IV_NMDA/Мемантин 9 недель/IV/24.12.2021/Capa2Group1Series1.abf
+data/raw/IV_NMDA/Мемантин 9 недель/IV/24.12.2021/PPF1+NBQXGroup1Series1.abf
+data/raw/IV_NMDA/Мемантин 9 недель/IV/24.12.2021/PPF1Group1Series1.abf
+data/raw/IV_NMDA/Мемантин 9 недель/IV/24.12.2021/PPF2+NBQX+0Group1Series1.abf
+data/raw/IV_NMDA/Мемантин 9 недель/IV/24.12.2021/PPF2+NBQX+20Group1Series1.abf
+data/raw/IV_NMDA/Мемантин 9 недель/IV/24.12.2021/PPF2+NBQX+40Group1Series1.abf
+data/raw/IV_NMDA/Мемантин 9 недель/IV/24.12.2021/PPF2+NBQX+60Group1Series1.abf
+data/raw/IV_NMDA/Мемантин 9 недель/IV/24.12.2021/PPF2+NBQX-20Group1Series1.abf
+data/raw/IV_NMDA/Мемантин 9 недель/IV/24.12.2021/PPF2+NBQX-40Group1Series1.abf
+data/raw/IV_NMDA/Мемантин 9 недель/IV/24.12.2021/PPF2+NBQX-60Group1Series1.abf
+data/raw/IV_NMDA/Мемантин 9 недель/IV/24.12.2021/PPF2+NBQX-70Group1Series1.abf
+data/raw/IV_NMDA/Мемантин 9 недель/IV/24.12.2021/PPF2+NBQX-80Group1Series1.abf
+data/raw/IV_NMDA/Мемантин 9 недель/IV/24.12.2021/PPF2+NBQXGroup1Series1.abf
+data/raw/IV_NMDA/Мемантин 9 недель/IV/24.12.2021/PPF2Group1Series1.abf
+data/raw/IV_NMDA/Мемантин 9 недель/IV/24.12.2021/SlowEPSC1-40Group1Series1.abf
+data/raw/IV_NMDA/Мемантин 9 недель/IV/24.12.2021/SlowEPSC1-60Group1Series1.abf
+data/raw/IV_NMDA/Мемантин 9 недель/IV/24.12.2021/SlowEPSC1-70Group1Series1.abf
+data/raw/IV_NMDA/Мемантин 9 недель/IV/24.12.2021/SlowEPSC1-80Group1Series1.abf
+data/raw/IV_NMDA/Мемантин 9 недель/IV/24.12.2021/SlowEPSC2+0Group1Series1.abf
+data/raw/IV_NMDA/Мемантин 9 недель/IV/24.12.2021/SlowEPSC2+20Group1Series1.abf
+data/raw/IV_NMDA/Мемантин 9 недель/IV/24.12.2021/SlowEPSC2+40Group1Series1.abf
+data/raw/IV_NMDA/Мемантин 9 недель/IV/24.12.2021/SlowEPSC2-20Group1Series1.abf
+data/raw/IV_NMDA/Мемантин 9 недель/IV/24.12.2021/SlowEPSC2-40Group1Series1.abf
+data/raw/IV_NMDA/Мемантин 9 недель/IV/24.12.2021/SlowEPSC2-60Group1Series1.abf
+data/raw/IV_NMDA/Мемантин 9 недель/IV/24.12.2021/SlowEPSC2-80Group1Series1.abf

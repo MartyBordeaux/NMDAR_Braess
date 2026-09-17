@@ -1,0 +1,13 @@
+{
+  "early_over_primary": 1.0998943768468048,
+  "late_over_primary": 0.6375504979889222,
+  "integral_over_primary_ms": 257.219945200607,
+  "early_log_tolerance": 0.35,
+  "late_log_tolerance": 0.35,
+  "integral_log_tolerance": 0.5,
+  "integral_penalty_weight": 0.5,
+  "n_finite": 100000,
+  "max_abs_score_replay_error": 2.2737367544323206e-12,
+  "fitted_intercept": 63.33144227542695,
+  "expected_intercept": 63.33144227542696
+}

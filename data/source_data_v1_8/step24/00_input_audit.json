@@ -1,0 +1,19 @@
+{
+  "version": "1.0.0",
+  "step10_source": "/root/nmda/results_step10.zip::results/10_matched_rerouting/matched_parameter_all_samples.csv",
+  "broad_only_fallback": false,
+  "step18": "/root/nmda2/step_18/results_step_18_prior_geometry",
+  "step20": "/root/nmda2/step_20/results_step_20_exact_witness_compatibility",
+  "step21": "/root/nmda2/step_21/results_step_21_basin_population",
+  "step23": "/root/nmda2/step_23/results_step_23_publication_consolidation",
+  "targets": "/root/nmda2/NMDAR_Braess_step24_calibration_window_correction_v1_0/inputs/calibration_targets_step4.json",
+  "accepted_per_prior": 5000,
+  "strong_threshold": 1.6359295439505144,
+  "witness_id": 37318,
+  "priors_found": {
+    "reference": 50000,
+    "broad": 50000
+  },
+  "correction": "model integrated occupancy window 0-600 ms -> 140-500 ms; all experimental targets and other score terms frozen",
+  "corrected_integral_formula": "J_140_500_ms = 60*E_140_200 + 300*L_200_500"
+}
