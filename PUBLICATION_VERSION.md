@@ -1,34 +1,15 @@
-# Publication version map
+# Publication version
 
-Current manuscript: **v1.5, 13 September 2026**  
-Title: **Paradoxical NMDA response amplification in a robust receptor-state regime**
+Repository target: final author manuscript analysis corresponding to manuscript v1.8 (Neuropharmacology draft, September 2026).
 
-## Final evidence map
+Primary frozen results:
 
-| Manuscript claim | Authoritative repository source |
-|---|---|
-| -40 mV threshold-free 5/5/1 classification | `data/derived/final/step15/minus40_sweep_separation.csv` |
-| Negative-voltage robustness | `data/derived/final/step15/cell_series_consistency_negative.csv` and `voltage_summary_negative.csv` |
-| Historical proposal bounds and calibration implementation | `code/final_v1_5/historical_step10/` |
-| Historical control targets | `data/derived/final/historical_control_calibration/experimental_targets.json` |
-| Global strong-response accessibility | `data/derived/final/step18/` |
-| Calibration/Braess frontier | `data/derived/final/step19/` |
-| Exact local witness compatibility | `data/derived/final/step20/` |
-| Expanded basin geometry | `data/derived/final/step21/` |
-| Bayesian strong-state occupancy | `data/derived/final/step22/` |
-| Threshold sensitivity and publication consolidation | `data/derived/final/step23/` |
-| Headline numerical integrity audit | `code/final_v1_5/verify_publication_v1_5.py` |
+- 11 Ro25 series at -40 mV: 5 potentiating, 5 suppressing and 1 unresolved by complete sweep separation;
+- 40 control-compatible model solutions reach the experiment-scale amplification benchmark;
+- final finite sampled connectivity structure: dominant connected component 36, smaller connected component 3, one isolated sampled solution under the endpoint-preserving rule;
+- primary representative amplification ratio approximately 1.87;
+- operational-window sensitivity tested over 27 predefined schemes; 13/40 original experiment-scale solutions remain admitted under all schemes and the primary representative is retained throughout.
 
-## Superseded labels and stages
+The proposal draws and calibration-filtered ensembles are computational samples, not Bayesian posterior distributions. Parameter-path connectivity is a finite numerical result, not proof of global topological disconnectedness in the continuous 12-rate space.
 
-The earlier +/-2 pA plateau-neutral classification is retained only for provenance. Manuscript v1.5 uses threshold-free sweep separation and the term **unresolved** for overlapping sweep distributions.
-
-The older July `results_step4.zip` is a historical control-calibration stage and is not the same analysis as the later plateau-only Step04 target freeze. Its older Ro25 responder fields are not used for current experimental classification.
-
-Positive nominal holding potentials are outside the current manuscript's voltage-robustness result.
-
-## Interpretation boundary
-
-The Base model is a minimal mechanistic test model. Current results support the existence of a robust control-compatible Braess-like regime and strongly non-uniform occupancy relative to the original independent broad parameter measure. They do not establish a unique molecular mechanism of Ro25-6981 or identify a unique physiological 12-dimensional prior.
-
-The current normalized glutamate drive is dimensionless; no direct conversion to mM is defined by the model.
+Publication release status: code/source-data staging is active on `publication-v1.8-staging`; the branch should not be tagged as the final archival release until the raw ABF deposit and checksum manifest are present under `data/raw/`.
