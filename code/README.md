@@ -6,7 +6,7 @@ The publication branch is organized around the final analysis used for manuscrip
 
 The directory `code/publication_v1_8/` contains the final computational chain used for the manuscript:
 
-- calibration replay/correction and frozen candidate scoring;
+- control-shape calibration and frozen candidate scoring;
 - confirmation of experiment-scale amplification on the fixed 80-node forcing grid;
 - sampled connectivity searches (Steps 26-28);
 - publication consolidation and representative/local-robustness analysis (Step 29);
