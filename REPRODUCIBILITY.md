@@ -30,7 +30,7 @@ The experiment-scale amplification benchmark is `r_plateau >= 1.63592954395`, th
 The publication-aligned sequence is:
 
 1. replay/generate the Base-model parameter candidates;
-2. evaluate the corrected control-shape calibration score and retain the calibrated ensemble;
+2. evaluate the final control-shape calibration score and retain the calibrated ensemble;
 3. confirm amplification on the frozen 80-node forcing grid;
 4. test sampled connectivity with Steps 26-28;
 5. consolidate representatives, experimental-ratio matches and local perturbation summaries with Step 29;
