@@ -6,10 +6,12 @@ The study combines archival Purkinje-cell electrophysiology with a minimal NMDAR
 
 ## Final publication structure
 
-- `code/publication_v1_8/` — final model calibration, response confirmation, connectivity, consolidation and window-sensitivity code.
+- `code/publication_v1_8/` — final model calibration, response confirmation, geometry, connectivity, consolidation and window-sensitivity code.
 - `code/model/`, `code/step_11/`, `code/final_v1_5/` — retained upstream model and experimental utilities needed for provenance and replay.
 - `data/source_data_v1_8/` — final machine-readable source tables used in the manuscript.
-- `data/raw/` — destination for the original ABF recordings and checksum manifest required for full raw-trace reproducibility.
+- `data/model_inputs/step10_full/results_step10.zip` — frozen full Step 10 candidate table used by the downstream publication analysis.
+- `data/raw/IV_NMDA/` — original ABF recordings, tracked with Git LFS while preserving the experimental archive structure.
+- `data/raw/SHA256SUMS.txt` and `data/raw/ABF_FILELIST.txt` — integrity and inventory manifests for the raw archive.
 - `REPRODUCIBILITY.md` — execution order, numerical definitions and interpretation limits.
 
 ## Headline results
@@ -18,7 +20,9 @@ At -40 mV, complete sweep separation classifies the 11 Ro25 series as 5 potentia
 
 ## Repository status
 
-This staging branch is being assembled as the final publication release. The final computational code and manuscript source tables are being deposited here. The binary ABF archive must also be transferred into `data/raw/` before the repository is cited as a complete raw-data release.
+This repository contains the final manuscript v1.8 computational code, machine-readable source data, the frozen Step 10 model-input archive and the raw electrophysiological ABF archive. Raw ABFs are tracked with Git LFS; users cloning the repository for raw-trace replay should have Git LFS installed and run `git lfs pull` if necessary.
+
+The publication analysis is frozen to the definitions documented in `PUBLICATION_VERSION.md` and `REPRODUCIBILITY.md`. Historical code and earlier analysis products are retained only for provenance and should not supersede the v1.8 publication chain.
 
 ## Reuse and citation
 
