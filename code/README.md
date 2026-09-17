@@ -1,19 +1,23 @@
 # Analysis code
 
-The public code is organized around the frozen scientific endpoint and the final topology-first analysis rather than the internal development-step numbering.
+The publication branch is organized around the final analysis used for manuscript v1.8.
 
-- `plateau_observable.py` — exact frozen inter-pulse plateau observable used for the final model comparison.
-- `model/nmdar_braess_model.py` — compact publication implementation of the Base network, complete B-route removal, normalized 25-pulse forcing, and the B-slow route-split extension.
-- `reproduce_publication.py` — verifies the frozen endpoint/topology-first summary tables and regenerates compact diagnostic figures from the distributed source data.
+## Final publication pipelines
 
-The original development workflow proceeded through Steps 01–09 (raw reconstruction, QC, plateau extraction, target freeze, source freeze, exact reruns, B-slow boundary analysis, topology-first map, and publication synthesis). Those internal versioned scripts are retained in the project archive, but the public repository exposes the compact publication implementation and the final source tables rather than requiring the historical server directory layout.
+The directory `code/publication_v1_8/` contains the final computational chain used for the manuscript:
 
-The scientific endpoint is the negative inter-pulse plateau during the 25-pulse train. Positive stimulation-artifact peak height is not used as the endpoint.
+- calibration replay/correction and frozen candidate scoring;
+- confirmation of experiment-scale amplification on the fixed 80-node forcing grid;
+- sampled connectivity searches (Steps 26-28);
+- publication consolidation and representative/local-robustness analysis (Step 29);
+- post-train analysis-window sensitivity with raw-ABF replay (Step 31).
 
-## Raw ABF extraction
+The compact Base receptor-state implementation remains under `model/`. Earlier code under `final_v1_5/` and `step_11/` is retained only for provenance and upstream experimental utilities.
 
-Raw ABF files are not distributed. Consequently, the public repository starts experimental reproduction from `data/derived/plateau_by_cell_voltage.csv`. The raw-data extraction algorithm is documented in the manuscript and is represented by the same interval definition implemented in `plateau_observable.py`.
+## Experimental raw-data processing
 
-## Model reruns
+Raw ABF files are deposited under `data/raw/`. Final raw-file mapping and the post-train experimental metric implementation used for the window-sensitivity audit are contained in the Step 31 pipeline. The primary sweep-separation endpoint and voltage-robustness tables are distributed under `data/source_data_v1_8/`.
 
-A complete rerun of the 5000+5000 model ensemble additionally requires the frozen Step10 accepted parameter table. That table was not present in the export used to initialize this repository; see `../REPRODUCIBILITY.md`.
+## Interpretation
+
+The parameter candidate distributions and calibration-filtered ensembles are computational samples. They are not Bayesian priors/posteriors. Connectivity is defined by explicitly tested paths in the full kinetic parameter space, not by distances in a two-dimensional projection.
