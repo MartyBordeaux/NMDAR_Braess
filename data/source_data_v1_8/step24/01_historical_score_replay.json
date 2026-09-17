@@ -1,0 +1,42 @@
+{
+  "status": "PASS",
+  "max_abs_score_error": 6.80415723763872e-11,
+  "nonfinite_pattern_mismatches": 0,
+  "criterion": "max abs score error < 1e-8 and identical finite/nonfinite pattern",
+  "target_values": {
+    "control_series_n": 5,
+    "control_primary_amplitude_median_nA": 0.0371751865486557,
+    "early_over_primary_median": 1.0998943768468132,
+    "early_over_primary_log_tolerance": 0.35,
+    "late_over_primary_median": 0.6375504979889242,
+    "late_over_primary_log_tolerance": 0.35,
+    "charge_over_primary_ms_median": 257.21994520060446,
+    "charge_over_primary_log_tolerance": 0.5,
+    "memantine_suppression_ratio": 0.1495256005899073,
+    "memantine_ratio_log_tolerance": 0.5,
+    "control_amplitude_reference_n": 18,
+    "control_amplitude_reference_median_nA": 0.0382023630714464,
+    "control_amplitude_reference_values_nA": [
+      0.0059253692869219,
+      0.1922644764884673,
+      0.0082386586067492,
+      0.2567577592931957,
+      0.0045393356604251,
+      0.0392295395942371,
+      0.0079102585179745,
+      0.0019681816605031,
+      0.0187629769597509,
+      0.1794632067627008,
+      0.084684253524103,
+      0.1822615748446145,
+      0.0093525676739483,
+      0.3482929453122754,
+      0.0371751865486557,
+      0.1252848744516709,
+      0.2775007842273369,
+      0.0018876709352584
+    ],
+    "control_amplitude_reference_scope": "pooled_negative_controls_at_minus_40_mV",
+    "ro25_used_for_calibration": false
+  }
+}

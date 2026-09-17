@@ -1,0 +1,28 @@
+{
+  "status": "CORRECTED_PUBLICATION_MODEL_RESULTS_CONSOLIDATED",
+  "interpretation_scope": "Corrected 140-500-ms calibration, 40 numerically confirmed strong vectors, and finite-budget connectivity evidence through Step28. Connectivity failures are not global topological proofs.",
+  "n_corrected_accepted_broad": 5000,
+  "n_confirmed_strong": 40,
+  "strict_component_sizes": [
+    36,
+    3,
+    1
+  ],
+  "native_only_strict_component_sizes": [
+    35,
+    3,
+    1,
+    1
+  ],
+  "dominant_strict_fraction_of_strong": 0.9,
+  "dominant_native_fraction_of_strong": 0.875,
+  "primary_representative_sample_id": 30902,
+  "historical_witness_sample_id": 37318,
+  "historical_witness_is_primary_representative": false,
+  "no_new_denominator_cutoff": true,
+  "no_new_response_threshold": true,
+  "old_witness_centric_interpretation_should_be_retired": true,
+  "publication_message": "Multiple corrected strong-compatible kinetic solutions exist. Most sampled solutions lie in one verified connected network; a small secondary native-connected region and the historical witness remain separate within the finite path-search budget.",
+  "representative_local_robustness_recomputed": true,
+  "local_robustness_n_per_center_per_level": 1000
+}

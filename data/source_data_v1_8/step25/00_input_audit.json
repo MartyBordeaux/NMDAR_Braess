@@ -1,0 +1,59 @@
+{
+  "step24": "/root/nmda2/NMDAR_Braess_step24_calibration_window_correction_v1_0/results_step_24_calibration_window_correction",
+  "step24_status": "MATERIAL_CHANGE",
+  "corrected_strong_n": 40,
+  "strong_threshold": 1.6359295439505144,
+  "corrected_broad_cutoff_midpoint": 0.0806508971425229,
+  "corrected_broad_max_accepted_score": 0.0806451494470612,
+  "recovered_targets": {
+    "early_over_primary": 1.0998943768468048,
+    "late_over_primary": 0.6375504979889222,
+    "integral_over_primary_ms": 257.219945200607,
+    "early_log_tolerance": 0.35,
+    "late_log_tolerance": 0.35,
+    "integral_log_tolerance": 0.5,
+    "integral_penalty_weight": 0.5,
+    "n_finite": 100000,
+    "max_abs_score_replay_error": 2.2737367544323206e-12,
+    "fitted_intercept": 63.33144227542695,
+    "expected_intercept": 63.33144227542696
+  },
+  "script_version": "1.0.0",
+  "created_utc": "2026-09-13T16:44:42.960585+00:00",
+  "step10_source": "/root/nmda/results_step10.zip::results/10_matched_rerouting/matched_parameter_all_samples.csv",
+  "step10_archive_sha256": "bffddd17332d16c3048b7e23bcb2ab05a3a4c15213de1aa5eba816b23fd59d99",
+  "step10_rows": 100000,
+  "step10_rows_by_prior": {
+    "broad": 50000,
+    "reference": 50000
+  },
+  "frozen_forcing_grid_G_peak": [
+    0.1,
+    0.15,
+    0.2,
+    0.25,
+    0.3,
+    0.4,
+    0.5,
+    0.65,
+    0.8,
+    0.95
+  ],
+  "frozen_forcing_grid_tau_G_ms": [
+    3.0,
+    5.0,
+    7.5,
+    10.0,
+    15.0,
+    20.0,
+    30.0,
+    40.0
+  ],
+  "pulse_count": 25,
+  "pulse_interval_ms": 5.1,
+  "train_end_ms": 122.39999999999999,
+  "response_endpoint": "nested median of 19 retained inter-pulse PO windows after discarding first five intervals",
+  "calibration_integral": "J_140_500_ms = 60*E_140_200 + 300*L_200_500",
+  "no_new_denominator_cutoff": true,
+  "threads": 2
+}

@@ -1,0 +1,6 @@
+threshold,precal_strong_n,precal_strong_fraction,historical_accepted_strong_n,historical_accepted_strong_fraction,corrected_accepted_strong_n,corrected_accepted_strong_fraction
+1.5,1672,0.03344,3,0.0006,54,0.0108
+1.6,1360,0.0272,1,0.0002,42,0.0084
+1.6359295439505144,1261,0.02522,1,0.0002,40,0.008
+1.7,1121,0.02242,1,0.0002,27,0.0054
+1.8,947,0.01894,1,0.0002,23,0.0046

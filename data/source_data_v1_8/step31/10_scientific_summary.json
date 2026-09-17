@@ -1,0 +1,26 @@
+{
+  "baseline_scheme": "split200_primary250_late500",
+  "broad_jaccard_median": 0.8304960644334615,
+  "broad_jaccard_min": 0.650982334489021,
+  "dominant36_retained_min": 19,
+  "experimental_target_relative_ranges": {
+    "E_over_H": [
+      0.9293507619304916,
+      1.0629028048679527
+    ],
+    "L_over_H": [
+      0.8802998360830143,
+      1.1361183697299377
+    ],
+    "Q_over_H": [
+      0.8784837605066304,
+      1.1458741313374394
+    ]
+  },
+  "final40_retained_median": 31.0,
+  "final40_retained_min": 20,
+  "interpretation_boundary": "Descriptive sensitivity analysis of prespecified operational windows. No new acceptance rule, response threshold, denominator cutoff, or Bayesian posterior is introduced.",
+  "n_window_schemes": 27,
+  "primary_representative_retained_all_schemes": true,
+  "status": "WINDOW_ROBUSTNESS_AND_GEOMETRY_COMPLETED"
+}

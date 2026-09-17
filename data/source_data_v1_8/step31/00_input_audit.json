@@ -1,0 +1,100 @@
+{
+  "baseline_anchored_experimental_target": {
+    "raw_target_E_over_H": 1.099894310668216,
+    "raw_target_L_over_H": 0.6375508346355793,
+    "raw_target_Q_over_H_ms": 257.22004221130874,
+    "target_E_over_H": 1.1,
+    "target_L_over_H": 0.638,
+    "target_Q_over_H_ms": 257.22,
+    "tol_E": 0.35,
+    "tol_L": 0.35,
+    "tol_Q": 0.5
+  },
+  "baseline_five_series_anchor_max_abs_log_error": 0.0,
+  "baseline_model_score_max_abs_error": 2.2168933355715126e-12,
+  "baseline_raw_experimental_target": {
+    "target_E_over_H": 1.099894310668216,
+    "target_L_over_H": 0.6375508346355793,
+    "target_Q_over_H_ms": 257.22004221130874,
+    "tol_E": 0.35,
+    "tol_L": 0.35,
+    "tol_Q": 0.5
+  },
+  "baseline_raw_series_max_abs_log_error_vs_frozen": 0.000895570660890824,
+  "experimental_anchor_policy": "frozen series-level baseline ratios x raw within-series window-change ratio",
+  "frozen_target_reconstructed_from_step24": {
+    "score_reconstruction_max_error": 2.2737367544323206e-12,
+    "target_E_over_H": 1.0998943768468048,
+    "target_L_over_H": 0.6375504979889222,
+    "target_Q_over_H_ms": 257.219945200607,
+    "tol_E": 0.35,
+    "tol_L": 0.35,
+    "tol_Q": 0.5
+  },
+  "geometry": {
+    "n_broad_accepted": 5000,
+    "n_experiment_scale": 40,
+    "path_source": "/root/nmda2/step_27/results_step_27_curved_bridge_optimization/06_verified_path_points.csv.gz",
+    "pca_explained_variance_ratio": [
+      0.10173379580960266,
+      0.09805099053505437
+    ]
+  },
+  "integration_method": "trap_halfopen",
+  "model_dt_ms": 0.05,
+  "prefix_vs_frozen_baseline_observable_max_abs_log_error": 6.06530365656743e-05,
+  "prefix_vs_frozen_baseline_observable_median_abs_log_error": 6.217248937900858e-15,
+  "raw_root": "/root/nmda/IV_NMDA",
+  "scientific_summary": {
+    "baseline_scheme": "split200_primary250_late500",
+    "broad_jaccard_median": 0.8304960644334615,
+    "broad_jaccard_min": 0.650982334489021,
+    "dominant36_retained_min": 19,
+    "experimental_target_relative_ranges": {
+      "E_over_H": [
+        0.9293507619304916,
+        1.0629028048679527
+      ],
+      "L_over_H": [
+        0.8802998360830143,
+        1.1361183697299377
+      ],
+      "Q_over_H": [
+        0.8784837605066304,
+        1.1458741313374394
+      ]
+    },
+    "final40_retained_median": 31.0,
+    "final40_retained_min": 20,
+    "interpretation_boundary": "Descriptive sensitivity analysis of prespecified operational windows. No new acceptance rule, response threshold, denominator cutoff, or Bayesian posterior is introduced.",
+    "n_window_schemes": 27,
+    "primary_representative_retained_all_schemes": true,
+    "status": "WINDOW_ROBUSTNESS_AND_GEOMETRY_COMPLETED"
+  },
+  "script_version": "1.0.2",
+  "step10_source": "/root/nmda/results_step10.zip::results/10_matched_rerouting/matched_parameter_all_samples.csv",
+  "step24": "/root/nmda2/NMDAR_Braess_step24_calibration_window_correction_v1_0/results_step_24_calibration_window_correction",
+  "step27": "/root/nmda2/step_27/results_step_27_curved_bridge_optimization",
+  "step28": "/root/nmda2/step_28/results_step_28_residual_connectivity_stress",
+  "step29": "/root/nmda2/step_29/results_step_29_corrected_publication_consolidation",
+  "step2_source": "/root/nmda/iv_nmda_pipeline_step2/results_step2_tables.zip::results/02_metrics/slow_metrics_files.csv",
+  "threads": 2,
+  "window_grid": {
+    "late_end_ms": [
+      450.0,
+      500.0,
+      550.0
+    ],
+    "post_train_start_ms": 140.0,
+    "primary_end_ms": [
+      230.0,
+      250.0,
+      270.0
+    ],
+    "split_ms": [
+      180.0,
+      200.0,
+      220.0
+    ]
+  }
+}

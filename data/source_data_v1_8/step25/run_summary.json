@@ -1,0 +1,110 @@
+{
+  "pipeline_step": "25_corrected_strong_ensemble_validation_and_geometry",
+  "script_version": "1.0.0",
+  "created_utc": "2026-09-13T16:46:59.086973+00:00",
+  "python": "3.12.3 (main, Jun 19 2026, 12:46:00) [GCC 13.3.0]",
+  "platform": "Linux-6.8.0-79-generic-x86_64-with-glibc2.39",
+  "numpy": "2.4.6",
+  "pandas": "2.3.3",
+  "numba_threads": 2,
+  "step24": "/root/nmda2/NMDAR_Braess_step24_calibration_window_correction_v1_0/results_step_24_calibration_window_correction",
+  "step10_source": "/root/nmda/results_step10.zip::results/10_matched_rerouting/matched_parameter_all_samples.csv",
+  "strong_threshold": 1.6359295439505144,
+  "grid_dt_ms": 0.1,
+  "confirmation_dt_ms": 0.05,
+  "calibration_dt_ms": 0.05,
+  "local_n_per_centre_per_level": 1000,
+  "local_perturbation_levels": [
+    0.05,
+    0.1
+  ],
+  "representative_centres": [
+    {
+      "sample_id": 1900,
+      "roles": "best_calibrated_strong",
+      "optics_label": -1,
+      "calibration_score_corrected": 0.0024290482190339,
+      "G_peak": 0.15,
+      "tau_G_ms": 40.0,
+      "r_plateau_dt0p05": 2.4650289779771923,
+      "control_plateau_PO_dt0p05": 4.199358080135685e-06
+    },
+    {
+      "sample_id": 37318,
+      "roles": "experimental_typical_match",
+      "optics_label": -1,
+      "calibration_score_corrected": 0.0719798851370888,
+      "G_peak": 0.95,
+      "tau_G_ms": 10.0,
+      "r_plateau_dt0p05": 1.8744697451182757,
+      "control_plateau_PO_dt0p05": 0.11652618624332621
+    },
+    {
+      "sample_id": 27084,
+      "roles": "extreme_experimental_match",
+      "optics_label": 0,
+      "calibration_score_corrected": 0.0476400260926178,
+      "G_peak": 0.4,
+      "tau_G_ms": 20.0,
+      "r_plateau_dt0p05": 3.9737963111407653,
+      "control_plateau_PO_dt0p05": 0.0011742717165773337
+    },
+    {
+      "sample_id": 10052,
+      "roles": "largest_confirmed_response",
+      "optics_label": 0,
+      "calibration_score_corrected": 0.0045072059678528,
+      "G_peak": 0.3,
+      "tau_G_ms": 30.0,
+      "r_plateau_dt0p05": 10.514826956479919,
+      "control_plateau_PO_dt0p05": 6.62166362186692e-05
+    },
+    {
+      "sample_id": 18319,
+      "roles": "minimum_experimental_match",
+      "optics_label": -1,
+      "calibration_score_corrected": 0.0411958200496919,
+      "G_peak": 0.65,
+      "tau_G_ms": 20.0,
+      "r_plateau_dt0p05": 1.6380895870690209,
+      "control_plateau_PO_dt0p05": 0.002134217233602452
+    },
+    {
+      "sample_id": 49029,
+      "roles": "optics_cluster_0_medoid",
+      "optics_label": 0,
+      "calibration_score_corrected": 0.0746899848533116,
+      "G_peak": 0.3,
+      "tau_G_ms": 40.0,
+      "r_plateau_dt0p05": 2.8480771343203637,
+      "control_plateau_PO_dt0p05": 0.001544113556054766
+    }
+  ],
+  "experimental_ratios": [
+    1.6359295439505144,
+    1.694672,
+    1.876748,
+    1.891305,
+    4.072559
+  ],
+  "decision": {
+    "status": "KINETIC_REGION_STRUCTURE_UNRESOLVED",
+    "interpretation_scope": "Finite corrected strong point-cloud geometry plus local perturbation support; not proof of global basin connectivity or physiological population structure.",
+    "step24_strong_n": 40,
+    "confirmed_strong_n_dt0p05": 40,
+    "dt_strong_classification_agreement": 1.0,
+    "max_relative_dt_difference": 0.00028579693351592987,
+    "response_replay_pass_fraction": 1.0,
+    "canonical_optics_cluster_count": 1,
+    "canonical_optics_noise_fraction": 0.725,
+    "optics_sensitivity_pairwise_ari_median": 0.0,
+    "robust_optics_clusters_with_pm5_joint_fraction_ge_0p25": [
+      0
+    ],
+    "strong_compactness_empirical_p": 0.001996007984031936,
+    "best_calibrated_strong_sample_id": 1900,
+    "largest_confirmed_response_sample_id": 10052,
+    "numerical_gate_pass": true,
+    "no_denominator_exclusion_applied": true
+  }
+}

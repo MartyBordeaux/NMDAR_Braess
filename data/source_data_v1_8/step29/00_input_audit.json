@@ -1,0 +1,41 @@
+{
+  "pipeline": "29_corrected_publication_consolidation",
+  "script_version": "1.0.0",
+  "created_utc": "2026-09-15T02:44:37.238904+00:00",
+  "python": "3.12.3 (main, Jun 19 2026, 12:46:00) [GCC 13.3.0]",
+  "platform": "Linux-6.8.0-79-generic-x86_64-with-glibc2.39",
+  "numpy": "2.4.6",
+  "pandas": "2.3.3",
+  "numba_threads": 2,
+  "step24": "/root/nmda2/NMDAR_Braess_step24_calibration_window_correction_v1_0/results_step_24_calibration_window_correction",
+  "step25": "/root/nmda2/step_25/results_step_25_corrected_strong_geometry",
+  "step28": "/root/nmda2/step_28/results_step_28_residual_connectivity_stress",
+  "hard_gate_checks": {
+    "step24_status": true,
+    "step25_status": true,
+    "step28_status": true,
+    "confirmed_strong_n": true,
+    "step28_strict_sizes": true,
+    "step28_native_sizes": true,
+    "witness_present": true,
+    "no_denominator_exclusion_step25": true,
+    "no_denominator_exclusion_step28": true,
+    "engine_replay_step28": true
+  },
+  "strong_threshold": 1.6359295439505144,
+  "strict_corrected_cutoff": 0.0806451494470612,
+  "experimental_ratios": [
+    1.6359295439505144,
+    1.694672,
+    1.876748,
+    1.891305,
+    4.072559
+  ],
+  "no_new_denominator_cutoff": true,
+  "no_new_response_threshold": true,
+  "local_perturbation_n_per_center_per_level": 1000,
+  "local_perturbation_levels": [
+    0.05,
+    0.1
+  ]
+}

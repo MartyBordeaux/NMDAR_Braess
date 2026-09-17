@@ -1,0 +1,23 @@
+{
+  "status": "MATERIAL_CHANGE",
+  "full_two_prior_input": true,
+  "publication_ready_decision": true,
+  "broad_only_run_allowed_by_flag": false,
+  "criteria": {
+    "broad_retained_jaccard_below_0p90": true,
+    "primary_strong_retained_count_changed": true,
+    "witness_loses_compatibility": false,
+    "step20_plusminus5_joint_shift_gt_0p05": true,
+    "step21_factor1p5_joint_shift_gt_0p05": true
+  },
+  "corrected_broad_cutoff_midpoint": 0.08065089714252296,
+  "historical_broad_cutoff_midpoint": 0.5802283191355688,
+  "required_follow_up": [
+    "Use corrected 140-500 ms model integral in the calibration score.",
+    "Regenerate Step19 calibration-frontier reporting from corrected scores.",
+    "Regenerate any Step20/Step21 compatibility-boundary results that depend on the calibration cutoff.",
+    "Rerun Step22 component likelihood/model comparison if compatible support changes materially; the count-based experimental occupancy update itself is unchanged.",
+    "Regenerate Step23 publication consolidation and revise the manuscript before submission."
+  ],
+  "note": "The pipeline does not alter experimental labels or raw-data measurements."
+}
